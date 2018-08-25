@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1;url=http://hoanthien.readipos.com.au">
+        <script type="text/javascript">
+            window.location.href = "http://hoanthien.readipos.com.au"
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+                <a href='http://hoanthien.readipos.com.au'>Xin nhấn vào đây nếu trang cộng đoàn chư tự động mở trong khoảng một hai giây.
+                </a></body>
+</html>

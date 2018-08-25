@@ -1,0 +1,10 @@
+[30-Jul-2016 06:45:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(
+  		Tag_Group_ID mediumint(9) NOT NULL AUTO_INCREMENT,
+  		Tag_Group_Name te' at line 1 for query CREATE TABLE  (
+  		Tag_Group_ID mediumint(9) NOT NULL AUTO_INCREMENT,
+  		Tag_Group_Name text DEFAULT '' NOT NULL,
+		Tag_Group_Description text DEFAULT '' NOT NULL,
+		Tag_Group_Order mediumint(9) DEFAULT '0' NOT NULL,
+  		UNIQUE KEY id (Tag_Group_ID)
+    	)
+		DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by activate_plugin, do_action('activate_ultimate-product-catalogue/UPCP_Main.php'), call_user_func_array, Install_UPCP_DB, dbDelta

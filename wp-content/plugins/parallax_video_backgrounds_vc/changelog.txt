@@ -1,0 +1,36 @@
+June 20, 2016 - Version 1.5.6
+- Updated Brainstorm Updater to latest version.
+
+May 14, 2016 – Version 1.5.5
+- Fixed: Multilayer parallax not working
+- BSF Core updated
+
+October 28, 2015 – Version 1.5.2
+- Fixed: VC 4.8 compatibility
+- Improvement: Smooth scroll option added
+- Improvement: Settings page available with quick fixes - http://bsf.io/mh9nt
+- BSF CORE: shiny updates using Ajax feature
+
+December 23, 2014 Version 1.4.0
+- Many new exciting features!
+- Introducing: Row Separators
+- Introducing: Overlay Effects
+- Introducing: Hide Row Feature
+- Other fixes & improvements
+
+August 30, 2014 Version 1.3.0
+- Many new exciting features!
+- Improvement: Mobile controls for parallax image & video background
+- Introducing: Easy parallax & fade elements in row
+- Introducing: Auto moving image
+- Other fixes & improvements
+
+April 28, 2014 Version 1.2.0
+- Fixed: Redirect on Mobile issue is now fixed
+- Fixed: Gradient color picker issue on frontend editor
+
+April 24, 2014 – Version 1.1.0
+- Minor bug fixes
+
+April 01, 2014 – Version 1.0
+- Initial Release

@@ -1,0 +1,41 @@
+# Copyright (C) 2016 Fernando
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: About Us Widget\n"
+"POT-Creation-Date: 2016-05-05 00:02-0700\n"
+"PO-Revision-Date: 2016-03-23 09:11-0700\n"
+"Last-Translator: fernando villamor <fervillz@gmail.com>\n"
+"Language-Team: Fernando Villamor <fervillz@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../widgets\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: widget-about.php\n"
+"X-Poedit-SearchPathExcluded-0: ../.git\n"
+
+#: widget-about.php:15
+msgid "About Us Widget"
+msgstr ""
+
+#: widget-about.php:19
+msgid "Excerpt of your story. Be confident and let others know it."
+msgstr ""
+
+#: widget-about.php:66
+msgid "Title:"
+msgstr ""
+
+#: widget-about.php:75
+msgid "Thumbnail link:"
+msgstr ""
+
+#: widget-about.php:164
+msgid "Learn more"
+msgstr ""

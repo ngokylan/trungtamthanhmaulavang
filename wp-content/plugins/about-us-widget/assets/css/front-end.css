@@ -1,0 +1,34 @@
+.auw_widget {
+	line-height: 2.09231em;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 27px;
+    padding: 0 0 27px;
+    border-bottom: 1px solid #eee;
+    font-family: "Open Sans", Georgia, Times, serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #666;
+    max-width: 300px;
+}
+
+.auw_widget img {
+    max-width: 100%;
+}
+
+.auw_widget a {
+    text-decoration: none;
+}
+
+.auw_widget p {
+    margin-bottom: 27px;
+}
+
+.auw_widget .widget-title {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.36em;
+    margin: 14px 0;
+}

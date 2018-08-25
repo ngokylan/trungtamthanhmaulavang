@@ -1,0 +1,6 @@
+
+#ignore second git
+admin/bsf-core/.git
+
+#ignore shell scripts
+*.sh

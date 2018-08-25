@@ -1,0 +1,1031 @@
+0000.033 (0) Opened log file at time: Thu, 05 Jul 2018 02:59:15 +0000 on http://congdoanhoanthien.org.au
+0000.037 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.4 PHP: 5.5.38 (cgi-fcgi, Linux p12.runhosting.com 4.4.130kvmcap #1 SMP Mon Apr 30 11:31:22 UTC 2018 x86_64) MySQL: 5.7.20 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 20.3M | 21M) multisite: N openssl: OpenSSL 1.1.0f  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.039 (0) Free space on disk containing Updraft's temporary directory: 25865 MB
+0000.043 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.044 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.065 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1530673364, seconds_ago=86191)
+0000.068 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2018-07-05 02:59:15
+0000.070 (0) Semaphore (fd, wp_options) reset to 1
+0000.072 (0) Set semaphore last lock (fd) time to 2018-07-05 02:59:15
+0000.074 (0) Semaphore lock (fd) complete
+0000.081 (0) Backup run: resumption=0, nonce=5780928b2c41, begun at=1530759555 (0s ago), job type=backup
+0000.083 (0) Scheduling a resumption (1) after 300 seconds (1530759855) in case this run gets aborted
+0000.119 (0) Checking if we have a zip executable available
+0000.124 (0) Testing: /usr/bin/zip
+0000.139 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.143 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.144 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.146 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.147 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.158 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.161 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.192 (0) Working binary zip found: /usr/bin/zip
+0000.195 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.197 (0) Creation of backups of directories: beginning
+0000.202 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0015.914 (0) Total entities for the zip file: 742 directories, 4562 files (0 skipped as non-modified), 75.9 MB
+0015.917 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0015.968 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: size is now: 0.20 MB
+0015.978 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 100 files added (on-disk size: 162.5 KB)
+0015.985 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 200 files added (on-disk size: 162.5 KB)
+0015.993 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 300 files added (on-disk size: 162.5 KB)
+0016.001 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 400 files added (on-disk size: 162.5 KB)
+0016.007 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 500 files added (on-disk size: 162.5 KB)
+0016.009 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.2 MB, 4562 files batched, 501 (502) added so far); re-opening (prior size: 162.5 KB)
+0021.916 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: size is now: 7.30 MB
+0021.926 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 600 files added (on-disk size: 7510.8 KB)
+0021.932 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 700 files added (on-disk size: 7510.8 KB)
+0021.942 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 800 files added (on-disk size: 7510.8 KB)
+0021.953 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 900 files added (on-disk size: 7510.8 KB)
+0021.961 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1000 files added (on-disk size: 7510.8 KB)
+0021.963 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9 MB, 4562 files batched, 501 (1003) added so far); re-opening (prior size: 7510.8 KB)
+0039.499 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: size is now: 10.40 MB
+0039.514 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1100 files added (on-disk size: 10676.1 KB)
+0039.525 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1200 files added (on-disk size: 10676.1 KB)
+0039.534 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1300 files added (on-disk size: 10676.1 KB)
+0039.543 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1400 files added (on-disk size: 10676.1 KB)
+0039.551 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1500 files added (on-disk size: 10676.1 KB)
+0039.554 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 4562 files batched, 501 (1504) added so far); re-opening (prior size: 10676.1 KB)
+0050.514 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1600 files added (on-disk size: 12140.1 KB)
+0050.536 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1700 files added (on-disk size: 12140.1 KB)
+0050.603 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1800 files added (on-disk size: 12140.1 KB)
+0050.647 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 1900 files added (on-disk size: 12140.1 KB)
+0050.717 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2000 files added (on-disk size: 12140.1 KB)
+0050.731 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9 MB, 4562 files batched, 501 (2005) added so far); re-opening (prior size: 12140.1 KB)
+0063.776 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2100 files added (on-disk size: 14565.7 KB)
+0063.787 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2200 files added (on-disk size: 14565.7 KB)
+0063.806 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2300 files added (on-disk size: 14565.7 KB)
+0063.830 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2400 files added (on-disk size: 14565.7 KB)
+0063.838 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2500 files added (on-disk size: 14565.7 KB)
+0063.841 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 4562 files batched, 501 (2506) added so far); re-opening (prior size: 14565.7 KB)
+0072.352 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: size is now: 18.20 MB
+0072.363 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2600 files added (on-disk size: 18598.6 KB)
+0072.370 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2700 files added (on-disk size: 18598.6 KB)
+0072.377 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2800 files added (on-disk size: 18598.6 KB)
+0072.384 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 2900 files added (on-disk size: 18598.6 KB)
+0072.390 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3000 files added (on-disk size: 18598.6 KB)
+0072.392 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 4562 files batched, 501 (3007) added so far); re-opening (prior size: 18598.6 KB)
+0089.621 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: size is now: 22.50 MB
+0089.631 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3100 files added (on-disk size: 23044.8 KB)
+0089.638 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3200 files added (on-disk size: 23044.8 KB)
+0089.648 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3300 files added (on-disk size: 23044.8 KB)
+0089.656 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3400 files added (on-disk size: 23044.8 KB)
+0089.663 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3500 files added (on-disk size: 23044.8 KB)
+0089.666 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 4562 files batched, 501 (3508) added so far); re-opening (prior size: 23044.8 KB)
+0096.353 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3600 files added (on-disk size: 27311.7 KB)
+0096.365 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3700 files added (on-disk size: 27311.7 KB)
+0096.372 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3800 files added (on-disk size: 27311.7 KB)
+0096.378 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 3900 files added (on-disk size: 27311.7 KB)
+0096.391 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 4000 files added (on-disk size: 27311.7 KB)
+0096.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 4562 files batched, 501 (4009) added so far); re-opening (prior size: 27311.7 KB)
+0102.166 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 4100 files added (on-disk size: 31104.7 KB)
+0102.179 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 4200 files added (on-disk size: 31104.7 KB)
+0102.190 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 4300 files added (on-disk size: 31104.7 KB)
+0102.202 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 4400 files added (on-disk size: 31104.7 KB)
+0102.215 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip.tmp: 4500 files added (on-disk size: 31104.7 KB)
+0102.217 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 4562 files batched, 501 (4510) added so far); re-opening (prior size: 31104.7 KB)
+0112.385 (0) Created plugins zip (0) - 32256.2 KB in 112.2 s (287.6 KB/s) (sha1: 068e0645e3ac4940a7f1453364d7850e7bf4dbb4, sha256: 0482b12bfec6ffbf5f708e9248d6b56539f38f9afb5b83e2cb03f61ca3cc7a4f)
+0112.390 (0) Beginning creation of dump of themes (split every: 400 MB)
+0112.954 (0) Total entities for the zip file: 45 directories, 323 files (0 skipped as non-modified), 17.8 MB
+0112.965 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0112.977 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0112.987 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0117.484 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip.tmp: size is now: 13.90 MB
+0117.715 (0) Created themes zip (0) - 14231.3 KB in 5.3 s (2678.5 KB/s) (sha1: 951182638922f1c7e3de15fedbc8a8ea3aa9d4b4, sha256: 7a5c131a5fee8032b936ac27c09484f248f880ba7a1aa5fe5d6580393b07e6af)
+0117.719 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0117.720 (0) Looking for candidates to back up in: /srv/disk5/2173440/www/congdoanhoanthien.org.au/public_html/hoanthien/wp-content/uploads
+0117.721 (0) finding files: 2015: adding to list (1)
+0117.723 (0) finding files: 2016: adding to list (2)
+0117.724 (0) finding files: 2017: adding to list (3)
+0117.725 (0) finding files: js_composer: adding to list (4)
+0117.726 (0) finding files: revslider: adding to list (5)
+0117.728 (0) finding files: wpcf7_captcha: adding to list (6)
+0117.729 (0) finding files: 2018: adding to list (7)
+0117.730 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0136.208 (0) Total entities for the zip file: 186 directories, 4412 files (0 skipped as non-modified), 375.7 MB
+0136.210 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (1.2 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0136.299 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: size is now: 1.20 MB
+0136.308 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 100 files added (on-disk size: 1278.4 KB)
+0136.311 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 4412 files batched, 136 (137) added so far); re-opening (prior size: 1278.4 KB)
+0139.898 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: size is now: 26.10 MB
+0139.903 (0) A useful amount of data was added after this amount of zip processing: 4.3 s (normalised: 4.2 s, rate: 6037.5 KB/s)
+0139.906 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.27418708801, normalised_time=4.24018059507, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=37094269)
+0139.914 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 200 files added (on-disk size: 26749.7 KB)
+0139.921 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 300 files added (on-disk size: 26749.7 KB)
+0139.928 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 400 files added (on-disk size: 26749.7 KB)
+0139.929 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.4 MB added on this batch (35.4 MB, 4412 files batched, 272 (409) added so far); re-opening (prior size: 26749.7 KB)
+0151.937 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: size is now: 61.40 MB
+0151.942 (0) A useful amount of data was added after this amount of zip processing: 12.3 s (normalised: 12.3 s, rate: 2947 KB/s)
+0151.953 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 500 files added (on-disk size: 62852.6 KB)
+0151.963 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 600 files added (on-disk size: 62852.6 KB)
+0151.973 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 700 files added (on-disk size: 62852.6 KB)
+0151.980 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 800 files added (on-disk size: 62852.6 KB)
+0151.986 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 900 files added (on-disk size: 62852.6 KB)
+0151.989 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (32 MB, 4412 files batched, 501 (910) added so far); re-opening (prior size: 62852.6 KB)
+0169.367 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: size is now: 90.00 MB
+0169.377 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1000 files added (on-disk size: 92125 KB)
+0169.384 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1100 files added (on-disk size: 92125 KB)
+0169.393 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1200 files added (on-disk size: 92125 KB)
+0169.405 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1300 files added (on-disk size: 92125 KB)
+0169.415 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1400 files added (on-disk size: 92125 KB)
+0169.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (26.5 MB, 4412 files batched, 501 (1411) added so far); re-opening (prior size: 92125 KB)
+0174.863 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: size is now: 111.80 MB
+0174.876 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1500 files added (on-disk size: 114450.8 KB)
+0174.889 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1600 files added (on-disk size: 114450.8 KB)
+0174.899 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1700 files added (on-disk size: 114450.8 KB)
+0174.910 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1800 files added (on-disk size: 114450.8 KB)
+0174.922 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1900 files added (on-disk size: 114450.8 KB)
+0174.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.2 MB, 4412 files batched, 501 (1912) added so far); re-opening (prior size: 114450.8 KB)
+0188.212 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2000 files added (on-disk size: 129527.5 KB)
+0188.220 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2100 files added (on-disk size: 129527.5 KB)
+0188.234 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.4 MB added on this batch (36.1 MB, 4412 files batched, 223 (2135) added so far); re-opening (prior size: 129527.5 KB)
+0195.497 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: size is now: 161.90 MB
+0195.503 (0) A useful amount of data was added after this amount of zip processing: 7.9 s (normalised: 7.7 s, rate: 4698 KB/s)
+0195.510 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2200 files added (on-disk size: 165797.7 KB)
+0195.517 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2300 files added (on-disk size: 165797.7 KB)
+0195.522 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.4 MB added on this batch (35.5 MB, 4412 files batched, 237 (2372) added so far); re-opening (prior size: 165797.7 KB)
+0203.272 (0) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: size is now: 196.90 MB
+0203.276 (0) A useful amount of data was added after this amount of zip processing: 8.6 s (normalised: 8.6 s, rate: 4203.3 KB/s)
+0203.281 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2400 files added (on-disk size: 201593.2 KB)
+0203.285 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.4 MB added on this batch (35.6 MB, 4412 files batched, 75 (2447) added so far); re-opening (prior size: 201593.2 KB)
+0214.013 (0) A useful amount of data was added after this amount of zip processing: 11.4 s (normalised: 11.3 s, rate: 3200.4 KB/s)
+0214.020 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2500 files added (on-disk size: 238044.7 KB)
+0214.026 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2600 files added (on-disk size: 238044.7 KB)
+0214.033 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2700 files added (on-disk size: 238044.7 KB)
+0214.040 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2800 files added (on-disk size: 238044.7 KB)
+0214.047 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2900 files added (on-disk size: 238044.7 KB)
+0214.051 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 MB, 4412 files batched, 501 (2948) added so far); re-opening (prior size: 238044.7 KB)
+0223.488 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3000 files added (on-disk size: 250586.3 KB)
+0223.495 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3100 files added (on-disk size: 250586.3 KB)
+0223.501 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3200 files added (on-disk size: 250586.3 KB)
+0223.508 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3300 files added (on-disk size: 250586.3 KB)
+0223.514 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3400 files added (on-disk size: 250586.3 KB)
+0223.518 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 4412 files batched, 501 (3449) added so far); re-opening (prior size: 250586.3 KB)
+0228.690 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3500 files added (on-disk size: 251303 KB)
+0228.698 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3600 files added (on-disk size: 251303 KB)
+0228.717 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3700 files added (on-disk size: 251303 KB)
+0228.740 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3800 files added (on-disk size: 251303 KB)
+0228.759 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3900 files added (on-disk size: 251303 KB)
+0228.765 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 4412 files batched, 501 (3950) added so far); re-opening (prior size: 251303 KB)
+0263.533 (0) The scheduled resumption is within 45 seconds - will reschedule
+0263.538 (0) Rescheduling resumption 1: moving to 345 seconds from now (1530760163)
+0263.544 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0263.550 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4000 files added (on-disk size: 253314.1 KB)
+0263.559 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4100 files added (on-disk size: 253314.1 KB)
+0263.569 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.4 MB added on this batch (36.5 MB, 4412 files batched, 228 (4178) added so far); re-opening (prior size: 253314.1 KB)
+0275.556 (0) A useful amount of data was added after this amount of zip processing: 12.9 s (normalised: 12.5 s, rate: 2895.2 KB/s)
+0275.559 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4200 files added (on-disk size: 290212.2 KB)
+0275.564 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.4 MB added on this batch (40 MB, 4412 files batched, 91 (4269) added so far); re-opening (prior size: 290212.2 KB)
+0286.359 (0) A useful amount of data was added after this amount of zip processing: 11.7 s (normalised: 10.4 s, rate: 3496.1 KB/s)
+0286.364 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4300 files added (on-disk size: 331107.6 KB)
+0286.371 (0) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4400 files added (on-disk size: 331107.6 KB)
+0286.373 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 35.4 MB added on this batch (35.4 MB, 4412 files batched, 132 (4401) added so far); re-opening (prior size: 331107.6 KB)
+0881.972 (1) Opened log file at time: Thu, 05 Jul 2018 03:13:57 +0000 on http://congdoanhoanthien.org.au
+0881.974 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.4 PHP: 5.5.38 (cgi-fcgi, Linux p12.runhosting.com 4.4.130kvmcap #1 SMP Mon Apr 30 11:31:22 UTC 2018 x86_64) MySQL: 5.7.20 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 20.6M | 21.3M) multisite: N openssl: OpenSSL 1.1.0f  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0881.975 (1) Free space on disk containing Updraft's temporary directory: 25460.1 MB
+0881.978 (1) Backup run: resumption=1, nonce=5780928b2c41, begun at=1530759555 (882s ago), job type=backup, previous check-in=303.1s
+0881.980 (1) Scheduling a resumption (2) after 345 seconds (1530760782) in case this run gets aborted
+0882.000 (1) Checking if we have a zip executable available
+0882.001 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0882.002 (1) Creation of backups of directories: had begun; will resume
+0882.006 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0882.007 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip: this file has already been created (age: 770 s)
+0882.010 (1) Beginning creation of dump of themes (split every: 400 MB)
+0882.011 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip: this file has already been created (age: 765 s)
+0882.014 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0882.015 (1) Looking for candidates to back up in: /srv/disk5/2173440/www/congdoanhoanthien.org.au/public_html/hoanthien/wp-content/uploads
+0882.016 (1) finding files: 2015: adding to list (1)
+0882.017 (1) finding files: 2016: adding to list (2)
+0882.018 (1) finding files: 2017: adding to list (3)
+0882.019 (1) finding files: js_composer: adding to list (4)
+0882.021 (1) finding files: revslider: adding to list (5)
+0882.022 (1) finding files: wpcf7_captcha: adding to list (6)
+0882.023 (1) finding files: 2018: adding to list (7)
+0882.024 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0882.025 (1) File exists (/srv/disk5/2173440/www/congdoanhoanthien.org.au/wp-content/updraft/backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1530759863, time_now=1530760437, diff=574)
+0882.237 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: Zip file already exists, with 4401 files
+0882.420 (1) Total entities for the zip file: 186 directories, 4412 files (0 skipped as non-modified), 375.7 MB
+0882.424 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 100 files added (on-disk size: 367176.1 KB)
+0882.426 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 200 files added (on-disk size: 367176.1 KB)
+0882.429 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 300 files added (on-disk size: 367176.1 KB)
+0882.431 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 400 files added (on-disk size: 367176.1 KB)
+0882.433 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 500 files added (on-disk size: 367176.1 KB)
+0882.435 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 600 files added (on-disk size: 367176.1 KB)
+0882.438 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 700 files added (on-disk size: 367176.1 KB)
+0882.440 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 800 files added (on-disk size: 367176.1 KB)
+0882.442 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 900 files added (on-disk size: 367176.1 KB)
+0882.445 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1000 files added (on-disk size: 367176.1 KB)
+0882.448 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1100 files added (on-disk size: 367176.1 KB)
+0882.450 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1200 files added (on-disk size: 367176.1 KB)
+0882.453 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1300 files added (on-disk size: 367176.1 KB)
+0882.455 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1400 files added (on-disk size: 367176.1 KB)
+0882.457 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1500 files added (on-disk size: 367176.1 KB)
+0882.459 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1600 files added (on-disk size: 367176.1 KB)
+0882.461 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1700 files added (on-disk size: 367176.1 KB)
+0882.464 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1800 files added (on-disk size: 367176.1 KB)
+0882.466 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 1900 files added (on-disk size: 367176.1 KB)
+0882.468 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2000 files added (on-disk size: 367176.1 KB)
+0882.472 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2100 files added (on-disk size: 367176.1 KB)
+0882.474 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2200 files added (on-disk size: 367176.1 KB)
+0882.477 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2300 files added (on-disk size: 367176.1 KB)
+0882.479 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2400 files added (on-disk size: 367176.1 KB)
+0882.481 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2500 files added (on-disk size: 367176.1 KB)
+0882.483 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2600 files added (on-disk size: 367176.1 KB)
+0882.485 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2700 files added (on-disk size: 367176.1 KB)
+0882.487 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2800 files added (on-disk size: 367176.1 KB)
+0882.489 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 2900 files added (on-disk size: 367176.1 KB)
+0882.492 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3000 files added (on-disk size: 367176.1 KB)
+0882.496 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3100 files added (on-disk size: 367176.1 KB)
+0882.498 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3200 files added (on-disk size: 367176.1 KB)
+0882.501 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3300 files added (on-disk size: 367176.1 KB)
+0882.503 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3400 files added (on-disk size: 367176.1 KB)
+0882.505 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3500 files added (on-disk size: 367176.1 KB)
+0882.508 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3600 files added (on-disk size: 367176.1 KB)
+0882.510 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3700 files added (on-disk size: 367176.1 KB)
+0882.512 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3800 files added (on-disk size: 367176.1 KB)
+0882.515 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 3900 files added (on-disk size: 367176.1 KB)
+0882.517 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4000 files added (on-disk size: 367176.1 KB)
+0882.520 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4100 files added (on-disk size: 367176.1 KB)
+0882.522 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4200 files added (on-disk size: 367176.1 KB)
+0882.525 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4300 files added (on-disk size: 367176.1 KB)
+0882.527 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip.tmp: 4400 files added (on-disk size: 367176.1 KB)
+0896.428 (1) Created uploads zip (0) - 368195.9 KB in 14.4 s (25566.4 KB/s) (sha1: acf149f93c40c07c3dc7baa8e2eabeaf54fc9ed3, sha256: abf782df02ef546f85fad83f1ae4c43ebd7b72129aac740cf28aa5a79f8e08d2)
+0896.434 (1) Beginning backup of other directories found in the content directory (index: 0)
+0896.435 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0896.436 (1) Looking for candidates to back up in: /srv/disk5/2173440/www/congdoanhoanthien.org.au/wp-content
+0896.438 (1) finding files: .DS_Store: adding to list (1)
+0896.439 (1) finding files: index.php: adding to list (2)
+0896.441 (1) finding files: languages: adding to list (3)
+0896.442 (1) finding files: plugins: skipping: this is the plugins directory
+0896.443 (1) finding files: themes: skipping: this is the themes directory
+0896.444 (1) finding files: upgrade: skipping: excluded by options
+0896.445 (1) finding files: uploads: adding to list (4)
+0896.446 (1) finding files: aiowps_backups: skipping: excluded by options (glob)
+0896.447 (1) finding files: wflogs: adding to list (5)
+0896.448 (1) finding files: updraft: skipping: this is the updraft directory
+0901.732 (1) Total entities for the zip file: 136 directories, 2130 files (0 skipped as non-modified), 43.8 MB
+0901.735 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0901.773 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: size is now: 0.00 MB
+0901.783 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 100 files added (on-disk size: 25.8 KB)
+0901.789 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 200 files added (on-disk size: 25.8 KB)
+0901.796 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 300 files added (on-disk size: 25.8 KB)
+0901.803 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 400 files added (on-disk size: 25.8 KB)
+0901.811 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 500 files added (on-disk size: 25.8 KB)
+0901.813 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.9 MB, 2130 files batched, 501 (502) added so far); re-opening (prior size: 25.8 KB)
+0909.451 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: size is now: 22.00 MB
+0909.467 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 600 files added (on-disk size: 22530 KB)
+0909.481 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 700 files added (on-disk size: 22530 KB)
+0909.501 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 800 files added (on-disk size: 22530 KB)
+0909.518 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 900 files added (on-disk size: 22530 KB)
+0909.540 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1000 files added (on-disk size: 22530 KB)
+0909.548 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 2130 files batched, 501 (1003) added so far); re-opening (prior size: 22530 KB)
+0918.044 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: size is now: 32.20 MB
+0918.054 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1100 files added (on-disk size: 32931.5 KB)
+0918.060 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1200 files added (on-disk size: 32931.5 KB)
+0918.067 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1300 files added (on-disk size: 32931.5 KB)
+0918.074 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1400 files added (on-disk size: 32931.5 KB)
+0918.080 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1500 files added (on-disk size: 32931.5 KB)
+0918.082 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 2130 files batched, 501 (1504) added so far); re-opening (prior size: 32931.5 KB)
+0922.019 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1600 files added (on-disk size: 34152.3 KB)
+0922.028 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1700 files added (on-disk size: 34152.3 KB)
+0922.036 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1800 files added (on-disk size: 34152.3 KB)
+0922.043 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 1900 files added (on-disk size: 34152.3 KB)
+0922.050 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 2000 files added (on-disk size: 34152.3 KB)
+0922.052 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.5 MB, 2130 files batched, 501 (2005) added so far); re-opening (prior size: 34152.3 KB)
+0927.738 (1) Zip: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip.tmp: 2100 files added (on-disk size: 34733.2 KB)
+0931.780 (1) Created others zip (0) - 41562.9 KB in 35.3 s (1176.4 KB/s) (sha1: 1fbe469f17cf350960318b333bf15096089ff67c, sha256: 8a25d54add082c6c53ea12528b78a335ab58933e0046ecd54feadbcba8a27234)
+0931.787 (1) Saving backup status to database (elements: 8)
+0931.792 (1) Resuming creation of database dump (WordPress DB)
+0931.797 (1) Testing: /usr/bin/mysqldump
+0932.129 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1194 bytes total)
+0932.132 (1) Working binary mysqldump found: /usr/bin/mysqldump
+0932.408 (1) Table wp_options: Total expected rows (approximate): 402
+0932.466 (1) Table wp_options: Total rows added: 398 in 0.06 seconds
+0932.468 (1) Table wp_options: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_options.table.gz - 169.8 KB)
+0932.474 (1) Table wp_users: Total expected rows (approximate): 4
+0932.478 (1) Table wp_users: Total rows added: 4 in 0.00 seconds
+0932.480 (1) Table wp_users: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_users.table.gz - 0.9 KB)
+0932.485 (1) Table wp_usermeta: Total expected rows (approximate): 2431
+0932.557 (1) Table wp_usermeta: Total rows added: 2431 in 0.07 seconds
+0932.559 (1) Table wp_usermeta: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_usermeta.table.gz - 18.9 KB)
+0932.567 (1) Table wp_commentmeta: Total expected rows (approximate): 0
+0932.571 (1) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0932.573 (1) Table wp_commentmeta: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0932.581 (1) Table wp_comments: Total expected rows (approximate): 1
+0932.585 (1) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0932.587 (1) Table wp_comments: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_comments.table.gz - 0.8 KB)
+0932.611 (1) Table wp_links: Total expected rows (approximate): 7
+0932.618 (1) Table wp_links: Total rows added: 7 in 0.01 seconds
+0932.619 (1) Table wp_links: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_links.table.gz - 0.6 KB)
+0932.625 (1) Table wp_postmeta: Total expected rows (approximate): 9381
+0932.875 (1) Table wp_postmeta: binary mysqldump finished (writes: 32) in 0.25 seconds
+0932.881 (1) Table wp_postmeta: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_postmeta.table.gz - 104.5 KB)
+0932.889 (1) Table wp_posts: Total expected rows (approximate): 2693
+0933.983 (1) Table wp_posts: Total rows added: 2693 in 1.09 seconds
+0933.986 (1) Table wp_posts: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_posts.table.gz - 973.1 KB)
+0934.011 (1) Table wp_term_relationships: Total expected rows (approximate): 585
+0934.032 (1) Table wp_term_relationships: Total rows added: 585 in 0.02 seconds
+0934.035 (1) Table wp_term_relationships: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_term_relationships.table.gz - 2.2 KB)
+0934.048 (1) Table wp_term_taxonomy: Total expected rows (approximate): 47
+0934.060 (1) Table wp_term_taxonomy: Total rows added: 47 in 0.01 seconds
+0934.064 (1) Table wp_term_taxonomy: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_term_taxonomy.table.gz - 0.8 KB)
+0934.075 (1) Table wp_termmeta: Total expected rows (approximate): 0
+0934.085 (1) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0934.087 (1) Table wp_termmeta: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_termmeta.table.gz - 0.4 KB)
+0934.094 (1) Table wp_terms: Total expected rows (approximate): 47
+0934.101 (1) Table wp_terms: Total rows added: 47 in 0.00 seconds
+0934.103 (1) Table wp_terms: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_terms.table.gz - 1.1 KB)
+0934.110 (1) Table wp_UPCP_Catalogue_Items: Total expected rows (approximate): 0
+0934.114 (1) Table wp_UPCP_Catalogue_Items: Total rows added: 0 in 0.00 seconds
+0934.115 (1) Table wp_UPCP_Catalogue_Items: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Catalogue_Items.table.gz - 0.3 KB)
+0934.124 (1) Table wp_UPCP_Catalogues: Total expected rows (approximate): 1
+0934.130 (1) Table wp_UPCP_Catalogues: Total rows added: 1 in 0.00 seconds
+0934.132 (1) Table wp_UPCP_Catalogues: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Catalogues.table.gz - 0.4 KB)
+0934.139 (1) Table wp_UPCP_Categories: Total expected rows (approximate): 1
+0934.144 (1) Table wp_UPCP_Categories: Total rows added: 1 in 0.00 seconds
+0934.146 (1) Table wp_UPCP_Categories: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Categories.table.gz - 0.4 KB)
+0934.154 (1) Table wp_UPCP_Custom_Fields: Total expected rows (approximate): 0
+0934.158 (1) Table wp_UPCP_Custom_Fields: Total rows added: 0 in 0.00 seconds
+0934.160 (1) Table wp_UPCP_Custom_Fields: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Custom_Fields.table.gz - 0.4 KB)
+0934.166 (1) Table wp_UPCP_Fields_Meta: Total expected rows (approximate): 0
+0934.171 (1) Table wp_UPCP_Fields_Meta: Total rows added: 0 in 0.00 seconds
+0934.172 (1) Table wp_UPCP_Fields_Meta: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Fields_Meta.table.gz - 0.3 KB)
+0934.180 (1) Table wp_UPCP_Item_Images: Total expected rows (approximate): 0
+0934.184 (1) Table wp_UPCP_Item_Images: Total rows added: 0 in 0.00 seconds
+0934.186 (1) Table wp_UPCP_Item_Images: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Item_Images.table.gz - 0.3 KB)
+0934.193 (1) Table wp_UPCP_Items: Total expected rows (approximate): 1
+0934.197 (1) Table wp_UPCP_Items: Total rows added: 1 in 0.00 seconds
+0934.199 (1) Table wp_UPCP_Items: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Items.table.gz - 0.6 KB)
+0934.204 (1) Table wp_UPCP_SubCategories: Total expected rows (approximate): 0
+0934.208 (1) Table wp_UPCP_SubCategories: Total rows added: 0 in 0.00 seconds
+0934.209 (1) Table wp_UPCP_SubCategories: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_SubCategories.table.gz - 0.4 KB)
+0934.221 (1) Table wp_UPCP_Tag_Groups: Total expected rows (approximate): 0
+0934.225 (1) Table wp_UPCP_Tag_Groups: Total rows added: 0 in 0.00 seconds
+0934.227 (1) Table wp_UPCP_Tag_Groups: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Tag_Groups.table.gz - 0.3 KB)
+0934.234 (1) Table wp_UPCP_Tagged_Items: Total expected rows (approximate): 0
+0934.239 (1) Table wp_UPCP_Tagged_Items: Total rows added: 0 in 0.00 seconds
+0934.241 (1) Table wp_UPCP_Tagged_Items: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Tagged_Items.table.gz - 0.3 KB)
+0934.248 (1) Table wp_UPCP_Tags: Total expected rows (approximate): 0
+0934.252 (1) Table wp_UPCP_Tags: Total rows added: 0 in 0.00 seconds
+0934.253 (1) Table wp_UPCP_Tags: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Tags.table.gz - 0.4 KB)
+0934.260 (1) Table wp_UPCP_Videos: Total expected rows (approximate): 0
+0934.264 (1) Table wp_UPCP_Videos: Total rows added: 0 in 0.00 seconds
+0934.265 (1) Table wp_UPCP_Videos: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Videos.table.gz - 0.3 KB)
+0934.272 (1) Table wp_aiowps_events: Total expected rows (approximate): 0
+0934.279 (1) Table wp_aiowps_events: Total rows added: 0 in 0.00 seconds
+0934.280 (1) Table wp_aiowps_events: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_events.table.gz - 0.4 KB)
+0934.286 (1) Table wp_aiowps_failed_logins: Total expected rows (approximate): 607
+0934.332 (1) Table wp_aiowps_failed_logins: Total rows added: 607 in 0.04 seconds
+0934.334 (1) Table wp_aiowps_failed_logins: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_failed_logins.table.gz - 7.7 KB)
+0934.343 (1) Table wp_aiowps_global_meta: Total expected rows (approximate): 1
+0934.604 (1) Table wp_aiowps_global_meta: Total rows added: 1 in 0.26 seconds
+0934.606 (1) Table wp_aiowps_global_meta: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_global_meta.table.gz - 167.3 KB)
+0934.612 (1) Table wp_aiowps_login_activity: Total expected rows (approximate): 80
+0934.625 (1) Table wp_aiowps_login_activity: Total rows added: 80 in 0.01 seconds
+0934.627 (1) Table wp_aiowps_login_activity: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_login_activity.table.gz - 1.6 KB)
+0934.655 (1) Table wp_aiowps_login_lockdown: Total expected rows (approximate): 307
+0934.683 (1) Table wp_aiowps_login_lockdown: Total rows added: 307 in 0.03 seconds
+0934.686 (1) Table wp_aiowps_login_lockdown: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_login_lockdown.table.gz - 4.8 KB)
+0934.712 (1) Table wp_aiowps_permanent_block: Total expected rows (approximate): 0
+0934.716 (1) Table wp_aiowps_permanent_block: Total rows added: 0 in 0.00 seconds
+0934.718 (1) Table wp_aiowps_permanent_block: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_permanent_block.table.gz - 0.4 KB)
+0934.725 (1) Table wp_cfs_contacts: Total expected rows (approximate): 0
+0934.728 (1) Table wp_cfs_contacts: Total rows added: 0 in 0.00 seconds
+0934.730 (1) Table wp_cfs_contacts: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_contacts.table.gz - 0.3 KB)
+0934.736 (1) Table wp_cfs_countries: Total expected rows (approximate): 240
+0934.751 (1) Table wp_cfs_countries: Total rows added: 240 in 0.01 seconds
+0934.753 (1) Table wp_cfs_countries: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_countries.table.gz - 3.7 KB)
+0934.760 (1) Table wp_cfs_forms: Total expected rows (approximate): 11
+0934.773 (1) Table wp_cfs_forms: Total rows added: 11 in 0.01 seconds
+0934.774 (1) Table wp_cfs_forms: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_forms.table.gz - 17.6 KB)
+0934.782 (1) Table wp_cfs_membership_presets: Total expected rows (approximate): 0
+0934.785 (1) Table wp_cfs_membership_presets: Total rows added: 0 in 0.00 seconds
+0934.786 (1) Table wp_cfs_membership_presets: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_membership_presets.table.gz - 0.3 KB)
+0934.793 (1) Table wp_cfs_modules: Total expected rows (approximate): 12
+0934.798 (1) Table wp_cfs_modules: Total rows added: 12 in 0.00 seconds
+0934.799 (1) Table wp_cfs_modules: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_modules.table.gz - 0.5 KB)
+0934.806 (1) Table wp_cfs_modules_type: Total expected rows (approximate): 2
+0934.810 (1) Table wp_cfs_modules_type: Total rows added: 2 in 0.00 seconds
+0934.812 (1) Table wp_cfs_modules_type: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_modules_type.table.gz - 0.3 KB)
+0934.818 (1) Table wp_cfs_statistics: Total expected rows (approximate): 0
+0934.822 (1) Table wp_cfs_statistics: Total rows added: 0 in 0.00 seconds
+0934.823 (1) Table wp_cfs_statistics: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_statistics.table.gz - 0.3 KB)
+0934.831 (1) Table wp_cfs_usage_stat: Total expected rows (approximate): 0
+0934.836 (1) Table wp_cfs_usage_stat: Total rows added: 0 in 0.00 seconds
+0934.837 (1) Table wp_cfs_usage_stat: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_usage_stat.table.gz - 0.3 KB)
+0934.844 (1) Table wp_dolly_plugin_table: Total expected rows (approximate): 7
+0934.850 (1) Table wp_dolly_plugin_table: Total rows added: 7 in 0.00 seconds
+0934.851 (1) Table wp_dolly_plugin_table: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_dolly_plugin_table.table.gz - 0.8 KB)
+0934.857 (1) Table wp_lsp_images: Total expected rows (approximate): 0
+0934.861 (1) Table wp_lsp_images: Total rows added: 0 in 0.00 seconds
+0934.862 (1) Table wp_lsp_images: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_lsp_images.table.gz - 0.4 KB)
+0934.869 (1) Table wp_lsp_sliders: Total expected rows (approximate): 0
+0934.873 (1) Table wp_lsp_sliders: Total rows added: 0 in 0.00 seconds
+0934.874 (1) Table wp_lsp_sliders: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_lsp_sliders.table.gz - 0.3 KB)
+0934.909 (1) Table wp_mwp_countdown_free: Total expected rows (approximate): 1
+0934.916 (1) Table wp_mwp_countdown_free: Total rows added: 1 in 0.01 seconds
+0934.918 (1) Table wp_mwp_countdown_free: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_mwp_countdown_free.table.gz - 0.5 KB)
+0934.926 (1) Table wp_revslider_css: Total expected rows (approximate): 109
+0934.940 (1) Table wp_revslider_css: Total rows added: 109 in 0.01 seconds
+0934.942 (1) Table wp_revslider_css: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_css.table.gz - 4.8 KB)
+0934.949 (1) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0934.953 (1) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0934.954 (1) Table wp_revslider_layer_animations: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0934.960 (1) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0934.964 (1) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0934.965 (1) Table wp_revslider_navigations: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0934.972 (1) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0934.976 (1) Table wp_revslider_sliders: Total rows added: 0 in 0.00 seconds
+0934.977 (1) Table wp_revslider_sliders: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_sliders.table.gz - 0.3 KB)
+0934.983 (1) Table wp_revslider_slides: Total expected rows (approximate): 0
+0934.987 (1) Table wp_revslider_slides: Total rows added: 0 in 0.00 seconds
+0934.988 (1) Table wp_revslider_slides: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_slides.table.gz - 0.3 KB)
+0934.994 (1) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0934.997 (1) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0934.998 (1) Table wp_revslider_static_slides: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0935.005 (1) Table wp_uji_counter: Total expected rows (approximate): 1
+0935.035 (1) Table wp_uji_counter: Total rows added: 1 in 0.03 seconds
+0935.037 (1) Table wp_uji_counter: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_uji_counter.table.gz - 0.8 KB)
+0935.065 (1) Table wp_uji_subscriptions: Total expected rows (approximate): 0
+0935.069 (1) Table wp_uji_subscriptions: Total rows added: 0 in 0.00 seconds
+0935.071 (1) Table wp_uji_subscriptions: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_uji_subscriptions.table.gz - 0.4 KB)
+0935.077 (1) Table wp_vcp_log: Total expected rows (approximate): 24363
+0935.365 (1) Table wp_vcp_log: binary mysqldump finished (writes: 30) in 0.29 seconds
+0935.367 (1) Table wp_vcp_log: finishing file (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_vcp_log.table.gz - 254.4 KB)
+0935.372 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_options.table.gz (1/51): adding to final database dump
+0935.397 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_users.table.gz (2/51): adding to final database dump
+0935.399 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_usermeta.table.gz (3/51): adding to final database dump
+0935.418 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_commentmeta.table.gz (4/51): adding to final database dump
+0935.420 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_comments.table.gz (5/51): adding to final database dump
+0935.421 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_links.table.gz (6/51): adding to final database dump
+0935.423 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_postmeta.table.gz (7/51): adding to final database dump
+0935.449 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_posts.table.gz (8/51): adding to final database dump
+0935.722 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_term_relationships.table.gz (9/51): adding to final database dump
+0935.729 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_term_taxonomy.table.gz (10/51): adding to final database dump
+0935.731 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_termmeta.table.gz (11/51): adding to final database dump
+0935.733 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_terms.table.gz (12/51): adding to final database dump
+0935.735 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Catalogue_Items.table.gz (13/51): adding to final database dump
+0935.737 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Catalogues.table.gz (14/51): adding to final database dump
+0935.739 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Categories.table.gz (15/51): adding to final database dump
+0935.741 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Custom_Fields.table.gz (16/51): adding to final database dump
+0935.743 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Fields_Meta.table.gz (17/51): adding to final database dump
+0935.744 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Item_Images.table.gz (18/51): adding to final database dump
+0935.746 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Items.table.gz (19/51): adding to final database dump
+0935.748 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_SubCategories.table.gz (20/51): adding to final database dump
+0935.750 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Tag_Groups.table.gz (21/51): adding to final database dump
+0935.751 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Tagged_Items.table.gz (22/51): adding to final database dump
+0935.753 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Tags.table.gz (23/51): adding to final database dump
+0935.754 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_UPCP_Videos.table.gz (24/51): adding to final database dump
+0935.755 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_events.table.gz (25/51): adding to final database dump
+0935.757 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_failed_logins.table.gz (26/51): adding to final database dump
+0935.764 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_global_meta.table.gz (27/51): adding to final database dump
+0935.810 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_login_activity.table.gz (28/51): adding to final database dump
+0935.813 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_login_lockdown.table.gz (29/51): adding to final database dump
+0935.817 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_aiowps_permanent_block.table.gz (30/51): adding to final database dump
+0935.819 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_contacts.table.gz (31/51): adding to final database dump
+0935.821 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_countries.table.gz (32/51): adding to final database dump
+0935.824 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_forms.table.gz (33/51): adding to final database dump
+0935.830 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_membership_presets.table.gz (34/51): adding to final database dump
+0935.831 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_modules.table.gz (35/51): adding to final database dump
+0935.833 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_modules_type.table.gz (36/51): adding to final database dump
+0935.834 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_statistics.table.gz (37/51): adding to final database dump
+0935.835 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_cfs_usage_stat.table.gz (38/51): adding to final database dump
+0935.836 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_dolly_plugin_table.table.gz (39/51): adding to final database dump
+0935.838 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_lsp_images.table.gz (40/51): adding to final database dump
+0935.839 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_lsp_sliders.table.gz (41/51): adding to final database dump
+0935.840 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_mwp_countdown_free.table.gz (42/51): adding to final database dump
+0935.842 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_css.table.gz (43/51): adding to final database dump
+0935.846 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_layer_animations.table.gz (44/51): adding to final database dump
+0935.847 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_navigations.table.gz (45/51): adding to final database dump
+0935.848 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_sliders.table.gz (46/51): adding to final database dump
+0935.850 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_slides.table.gz (47/51): adding to final database dump
+0935.851 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_revslider_static_slides.table.gz (48/51): adding to final database dump
+0935.852 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_uji_counter.table.gz (49/51): adding to final database dump
+0935.854 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_uji_subscriptions.table.gz (50/51): adding to final database dump
+0935.855 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db-table-wp_vcp_log.table.gz (51/51): adding to final database dump
+0935.928 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db.gz: finished writing out complete database file (1736 KB)
+0935.969 (1) Total database tables backed up: 51 (backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db.gz, size: 1779908, sha256)
+0935.983 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0935.985 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0935.987 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0935.988 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip: others: This file has not yet been successfully uploaded: will queue
+0935.989 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db.gz: db: This file has not yet been successfully uploaded: will queue
+0935.991 (1) Saving backup history. Total backup size: 447.3 MB
+0935.997 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0936.003 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0936.005 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-13ebc3a6909803bb6c1f9895eb0e1636)
+0940.173 (1) Google Drive quota usage: used=4667.8 MB, total=15360 MB, available=10692.2 MB
+0940.175 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip: Attempting to upload to Google Drive (into folder id: 1bJ3uUiY0uRSvxaseqDY2h9n3CtJhFdX6)
+0940.857 (1) Googledrive chunked upload: 3.2 % uploaded (1048576)
+0941.241 (1) Googledrive chunked upload: 6.3 % uploaded (2097152)
+0941.625 (1) Googledrive chunked upload: 9.5 % uploaded (3145728)
+0941.985 (1) Googledrive chunked upload: 12.7 % uploaded (4194304)
+0942.377 (1) Googledrive chunked upload: 15.9 % uploaded (5242880)
+0942.840 (1) Googledrive chunked upload: 19 % uploaded (6291456)
+0943.274 (1) Googledrive chunked upload: 22.2 % uploaded (7340032)
+0943.662 (1) Googledrive chunked upload: 25.4 % uploaded (8388608)
+0943.999 (1) Googledrive chunked upload: 28.6 % uploaded (9437184)
+0944.359 (1) Googledrive chunked upload: 31.7 % uploaded (10485760)
+0944.745 (1) Googledrive chunked upload: 34.9 % uploaded (11534336)
+0945.120 (1) Googledrive chunked upload: 38.1 % uploaded (12582912)
+0945.506 (1) Googledrive chunked upload: 41.3 % uploaded (13631488)
+0945.885 (1) Googledrive chunked upload: 44.4 % uploaded (14680064)
+0946.253 (1) Googledrive chunked upload: 47.6 % uploaded (15728640)
+0946.622 (1) Googledrive chunked upload: 50.8 % uploaded (16777216)
+0947.019 (1) Googledrive chunked upload: 54 % uploaded (17825792)
+0947.410 (1) Googledrive chunked upload: 57.1 % uploaded (18874368)
+0947.811 (1) Googledrive chunked upload: 60.3 % uploaded (19922944)
+0948.164 (1) Googledrive chunked upload: 63.5 % uploaded (20971520)
+0948.557 (1) Googledrive chunked upload: 66.7 % uploaded (22020096)
+0948.920 (1) Googledrive chunked upload: 69.8 % uploaded (23068672)
+0949.318 (1) Googledrive chunked upload: 73 % uploaded (24117248)
+0949.692 (1) Googledrive chunked upload: 76.2 % uploaded (25165824)
+0950.054 (1) Googledrive chunked upload: 79.4 % uploaded (26214400)
+0950.433 (1) Googledrive chunked upload: 82.5 % uploaded (27262976)
+0950.821 (1) Googledrive chunked upload: 85.7 % uploaded (28311552)
+0951.187 (1) Googledrive chunked upload: 88.9 % uploaded (29360128)
+0951.657 (1) Googledrive chunked upload: 92.1 % uploaded (30408704)
+0952.369 (1) Googledrive chunked upload: 95.2 % uploaded (31457280)
+0952.763 (1) Googledrive chunked upload: 98.4 % uploaded (32505856)
+0954.264 (1) Googledrive chunked upload: 100 % uploaded (32505856)
+0954.271 (1) OK: Archive backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip uploaded to Google Drive in 14.09 seconds
+0954.275 (1) Recording as successfully uploaded: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip (97b70c5e55c37677d737f5d6ff04b8cd)
+0954.289 (1) Deleting local file: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-plugins.zip: OK
+0954.591 (1) Google Drive quota usage: used=4699.3 MB, total=15360 MB, available=10660.7 MB
+0954.595 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip: Attempting to upload to Google Drive (into folder id: 1bJ3uUiY0uRSvxaseqDY2h9n3CtJhFdX6)
+0955.236 (1) Googledrive chunked upload: 7.2 % uploaded (1048576)
+0955.590 (1) Googledrive chunked upload: 14.4 % uploaded (2097152)
+0955.961 (1) Googledrive chunked upload: 21.6 % uploaded (3145728)
+0956.353 (1) Googledrive chunked upload: 28.8 % uploaded (4194304)
+0956.750 (1) Googledrive chunked upload: 36 % uploaded (5242880)
+0957.136 (1) Googledrive chunked upload: 43.2 % uploaded (6291456)
+0957.522 (1) Googledrive chunked upload: 50.4 % uploaded (7340032)
+0957.994 (1) Googledrive chunked upload: 57.6 % uploaded (8388608)
+0958.388 (1) Googledrive chunked upload: 64.8 % uploaded (9437184)
+0958.821 (1) Googledrive chunked upload: 72 % uploaded (10485760)
+0959.162 (1) Googledrive chunked upload: 79.1 % uploaded (11534336)
+0959.616 (1) Googledrive chunked upload: 86.3 % uploaded (12582912)
+0959.989 (1) Googledrive chunked upload: 93.5 % uploaded (13631488)
+0961.151 (1) Googledrive chunked upload: 100 % uploaded (13631488)
+0961.162 (1) OK: Archive backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip uploaded to Google Drive in 6.56 seconds
+0961.166 (1) Recording as successfully uploaded: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip (8480d9e7d938d9993b50ae94364953f4)
+0961.175 (1) Deleting local file: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-themes.zip: OK
+0961.495 (1) Google Drive quota usage: used=4713.2 MB, total=15360 MB, available=10646.8 MB
+0961.511 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip: Attempting to upload to Google Drive (into folder id: 1bJ3uUiY0uRSvxaseqDY2h9n3CtJhFdX6)
+0962.816 (1) Googledrive chunked upload: 0.3 % uploaded (1048576)
+0963.195 (1) Googledrive chunked upload: 0.6 % uploaded (2097152)
+0963.660 (1) Googledrive chunked upload: 0.8 % uploaded (3145728)
+0964.015 (1) Googledrive chunked upload: 1.1 % uploaded (4194304)
+0964.390 (1) Googledrive chunked upload: 1.4 % uploaded (5242880)
+0964.776 (1) Googledrive chunked upload: 1.7 % uploaded (6291456)
+0965.124 (1) Googledrive chunked upload: 1.9 % uploaded (7340032)
+0965.488 (1) Googledrive chunked upload: 2.2 % uploaded (8388608)
+0965.816 (1) Googledrive chunked upload: 2.5 % uploaded (9437184)
+0966.216 (1) Googledrive chunked upload: 2.8 % uploaded (10485760)
+0966.629 (1) Googledrive chunked upload: 3.1 % uploaded (11534336)
+0966.978 (1) Googledrive chunked upload: 3.3 % uploaded (12582912)
+0967.356 (1) Googledrive chunked upload: 3.6 % uploaded (13631488)
+0967.724 (1) Googledrive chunked upload: 3.9 % uploaded (14680064)
+0968.054 (1) Googledrive chunked upload: 4.2 % uploaded (15728640)
+0968.464 (1) Googledrive chunked upload: 4.4 % uploaded (16777216)
+0968.846 (1) Googledrive chunked upload: 4.7 % uploaded (17825792)
+0969.221 (1) Googledrive chunked upload: 5 % uploaded (18874368)
+0969.582 (1) Googledrive chunked upload: 5.3 % uploaded (19922944)
+0969.982 (1) Googledrive chunked upload: 5.6 % uploaded (20971520)
+0970.345 (1) Googledrive chunked upload: 5.8 % uploaded (22020096)
+0970.698 (1) Googledrive chunked upload: 6.1 % uploaded (23068672)
+0971.057 (1) Googledrive chunked upload: 6.4 % uploaded (24117248)
+0971.410 (1) Googledrive chunked upload: 6.7 % uploaded (25165824)
+0971.828 (1) Googledrive chunked upload: 7 % uploaded (26214400)
+0972.211 (1) Googledrive chunked upload: 7.2 % uploaded (27262976)
+0973.110 (1) Googledrive chunked upload: 7.5 % uploaded (28311552)
+0973.557 (1) Googledrive chunked upload: 7.8 % uploaded (29360128)
+0973.917 (1) Googledrive chunked upload: 8.1 % uploaded (30408704)
+0974.285 (1) Googledrive chunked upload: 8.3 % uploaded (31457280)
+0974.695 (1) Googledrive chunked upload: 8.6 % uploaded (32505856)
+0975.045 (1) Googledrive chunked upload: 8.9 % uploaded (33554432)
+0975.461 (1) Googledrive chunked upload: 9.2 % uploaded (34603008)
+0975.883 (1) Googledrive chunked upload: 9.5 % uploaded (35651584)
+0976.374 (1) Googledrive chunked upload: 9.7 % uploaded (36700160)
+0977.342 (1) Googledrive chunked upload: 10 % uploaded (37748736)
+0977.730 (1) Googledrive chunked upload: 10.3 % uploaded (38797312)
+0978.083 (1) Googledrive chunked upload: 10.6 % uploaded (39845888)
+0978.465 (1) Googledrive chunked upload: 10.8 % uploaded (40894464)
+0978.833 (1) Googledrive chunked upload: 11.1 % uploaded (41943040)
+0979.191 (1) Googledrive chunked upload: 11.4 % uploaded (42991616)
+0979.580 (1) Googledrive chunked upload: 11.7 % uploaded (44040192)
+0979.943 (1) Googledrive chunked upload: 12 % uploaded (45088768)
+0980.308 (1) Googledrive chunked upload: 12.2 % uploaded (46137344)
+0980.660 (1) Googledrive chunked upload: 12.5 % uploaded (47185920)
+0980.993 (1) Googledrive chunked upload: 12.8 % uploaded (48234496)
+0981.346 (1) Googledrive chunked upload: 13.1 % uploaded (49283072)
+0981.768 (1) Googledrive chunked upload: 13.3 % uploaded (50331648)
+0982.145 (1) Googledrive chunked upload: 13.6 % uploaded (51380224)
+0982.515 (1) Googledrive chunked upload: 13.9 % uploaded (52428800)
+0982.907 (1) Googledrive chunked upload: 14.2 % uploaded (53477376)
+0983.267 (1) Googledrive chunked upload: 14.5 % uploaded (54525952)
+0983.654 (1) Googledrive chunked upload: 14.7 % uploaded (55574528)
+0983.991 (1) Googledrive chunked upload: 15 % uploaded (56623104)
+0984.420 (1) Googledrive chunked upload: 15.3 % uploaded (57671680)
+0984.799 (1) Googledrive chunked upload: 15.6 % uploaded (58720256)
+0985.146 (1) Googledrive chunked upload: 15.9 % uploaded (59768832)
+0985.490 (1) Googledrive chunked upload: 16.1 % uploaded (60817408)
+0985.849 (1) Googledrive chunked upload: 16.4 % uploaded (61865984)
+0986.266 (1) Googledrive chunked upload: 16.7 % uploaded (62914560)
+0986.612 (1) Googledrive chunked upload: 17 % uploaded (63963136)
+0987.044 (1) Googledrive chunked upload: 17.2 % uploaded (65011712)
+0987.386 (1) Googledrive chunked upload: 17.5 % uploaded (66060288)
+0987.741 (1) Googledrive chunked upload: 17.8 % uploaded (67108864)
+0988.100 (1) Googledrive chunked upload: 18.1 % uploaded (68157440)
+0988.504 (1) Googledrive chunked upload: 18.4 % uploaded (69206016)
+0988.876 (1) Googledrive chunked upload: 18.6 % uploaded (70254592)
+0989.238 (1) Googledrive chunked upload: 18.9 % uploaded (71303168)
+0989.638 (1) Googledrive chunked upload: 19.2 % uploaded (72351744)
+0990.013 (1) Googledrive chunked upload: 19.5 % uploaded (73400320)
+0990.391 (1) Googledrive chunked upload: 19.7 % uploaded (74448896)
+0990.771 (1) Googledrive chunked upload: 20 % uploaded (75497472)
+0991.177 (1) Googledrive chunked upload: 20.3 % uploaded (76546048)
+0991.523 (1) Googledrive chunked upload: 20.6 % uploaded (77594624)
+0991.914 (1) Googledrive chunked upload: 20.9 % uploaded (78643200)
+0992.345 (1) Googledrive chunked upload: 21.1 % uploaded (79691776)
+0992.731 (1) Googledrive chunked upload: 21.4 % uploaded (80740352)
+0993.095 (1) Googledrive chunked upload: 21.7 % uploaded (81788928)
+0993.498 (1) Googledrive chunked upload: 22 % uploaded (82837504)
+0993.855 (1) Googledrive chunked upload: 22.2 % uploaded (83886080)
+0994.277 (1) Googledrive chunked upload: 22.5 % uploaded (84934656)
+0994.626 (1) Googledrive chunked upload: 22.8 % uploaded (85983232)
+0994.971 (1) Googledrive chunked upload: 23.1 % uploaded (87031808)
+0995.377 (1) Googledrive chunked upload: 23.4 % uploaded (88080384)
+0995.832 (1) Googledrive chunked upload: 23.6 % uploaded (89128960)
+0996.208 (1) Googledrive chunked upload: 23.9 % uploaded (90177536)
+0996.570 (1) Googledrive chunked upload: 24.2 % uploaded (91226112)
+0996.978 (1) Googledrive chunked upload: 24.5 % uploaded (92274688)
+0997.351 (1) Googledrive chunked upload: 24.8 % uploaded (93323264)
+0998.038 (1) Googledrive chunked upload: 25 % uploaded (94371840)
+0998.409 (1) Googledrive chunked upload: 25.3 % uploaded (95420416)
+0998.781 (1) Googledrive chunked upload: 25.6 % uploaded (96468992)
+0999.179 (1) Googledrive chunked upload: 25.9 % uploaded (97517568)
+0999.570 (1) Googledrive chunked upload: 26.1 % uploaded (98566144)
+0999.942 (1) Googledrive chunked upload: 26.4 % uploaded (99614720)
+1000.320 (1) Googledrive chunked upload: 26.7 % uploaded (100663296)
+1000.682 (1) Googledrive chunked upload: 27 % uploaded (101711872)
+1001.065 (1) Googledrive chunked upload: 27.3 % uploaded (102760448)
+1001.425 (1) Googledrive chunked upload: 27.5 % uploaded (103809024)
+1001.768 (1) Googledrive chunked upload: 27.8 % uploaded (104857600)
+1002.113 (1) Googledrive chunked upload: 28.1 % uploaded (105906176)
+1002.456 (1) Googledrive chunked upload: 28.4 % uploaded (106954752)
+1002.786 (1) Googledrive chunked upload: 28.6 % uploaded (108003328)
+1003.195 (1) Googledrive chunked upload: 28.9 % uploaded (109051904)
+1003.572 (1) Googledrive chunked upload: 29.2 % uploaded (110100480)
+1003.938 (1) Googledrive chunked upload: 29.5 % uploaded (111149056)
+1004.303 (1) Googledrive chunked upload: 29.8 % uploaded (112197632)
+1004.693 (1) Googledrive chunked upload: 30 % uploaded (113246208)
+1005.068 (1) Googledrive chunked upload: 30.3 % uploaded (114294784)
+1005.437 (1) Googledrive chunked upload: 30.6 % uploaded (115343360)
+1005.819 (1) Googledrive chunked upload: 30.9 % uploaded (116391936)
+1006.206 (1) Googledrive chunked upload: 31.1 % uploaded (117440512)
+1006.570 (1) Googledrive chunked upload: 31.4 % uploaded (118489088)
+1006.967 (1) Googledrive chunked upload: 31.7 % uploaded (119537664)
+1007.371 (1) Googledrive chunked upload: 32 % uploaded (120586240)
+1007.807 (1) Googledrive chunked upload: 32.3 % uploaded (121634816)
+1008.174 (1) Googledrive chunked upload: 32.5 % uploaded (122683392)
+1008.555 (1) Googledrive chunked upload: 32.8 % uploaded (123731968)
+1008.909 (1) Googledrive chunked upload: 33.1 % uploaded (124780544)
+1009.410 (1) Googledrive chunked upload: 33.4 % uploaded (125829120)
+1009.768 (1) Googledrive chunked upload: 33.7 % uploaded (126877696)
+1010.098 (1) Googledrive chunked upload: 33.9 % uploaded (127926272)
+1010.467 (1) Googledrive chunked upload: 34.2 % uploaded (128974848)
+1010.819 (1) Googledrive chunked upload: 34.5 % uploaded (130023424)
+1011.250 (1) Googledrive chunked upload: 34.8 % uploaded (131072000)
+1011.615 (1) Googledrive chunked upload: 35 % uploaded (132120576)
+1011.976 (1) Googledrive chunked upload: 35.3 % uploaded (133169152)
+1012.403 (1) Googledrive chunked upload: 35.6 % uploaded (134217728)
+1013.004 (1) Googledrive chunked upload: 35.9 % uploaded (135266304)
+1013.373 (1) Googledrive chunked upload: 36.2 % uploaded (136314880)
+1013.716 (1) Googledrive chunked upload: 36.4 % uploaded (137363456)
+1014.064 (1) Googledrive chunked upload: 36.7 % uploaded (138412032)
+1014.428 (1) Googledrive chunked upload: 37 % uploaded (139460608)
+1014.787 (1) Googledrive chunked upload: 37.3 % uploaded (140509184)
+1015.179 (1) Googledrive chunked upload: 37.5 % uploaded (141557760)
+1015.613 (1) Googledrive chunked upload: 37.8 % uploaded (142606336)
+1016.032 (1) Googledrive chunked upload: 38.1 % uploaded (143654912)
+1016.405 (1) Googledrive chunked upload: 38.4 % uploaded (144703488)
+1016.785 (1) Googledrive chunked upload: 38.7 % uploaded (145752064)
+1017.148 (1) Googledrive chunked upload: 38.9 % uploaded (146800640)
+1017.493 (1) Googledrive chunked upload: 39.2 % uploaded (147849216)
+1017.846 (1) Googledrive chunked upload: 39.5 % uploaded (148897792)
+1018.209 (1) Googledrive chunked upload: 39.8 % uploaded (149946368)
+1018.593 (1) Googledrive chunked upload: 40 % uploaded (150994944)
+1018.961 (1) Googledrive chunked upload: 40.3 % uploaded (152043520)
+1019.302 (1) Googledrive chunked upload: 40.6 % uploaded (153092096)
+1019.713 (1) Googledrive chunked upload: 40.9 % uploaded (154140672)
+1020.086 (1) Googledrive chunked upload: 41.2 % uploaded (155189248)
+1020.433 (1) Googledrive chunked upload: 41.4 % uploaded (156237824)
+1020.860 (1) Googledrive chunked upload: 41.7 % uploaded (157286400)
+1021.204 (1) Googledrive chunked upload: 42 % uploaded (158334976)
+1021.565 (1) Googledrive chunked upload: 42.3 % uploaded (159383552)
+1021.951 (1) Googledrive chunked upload: 42.6 % uploaded (160432128)
+1022.316 (1) Googledrive chunked upload: 42.8 % uploaded (161480704)
+1022.673 (1) Googledrive chunked upload: 43.1 % uploaded (162529280)
+1023.037 (1) Googledrive chunked upload: 43.4 % uploaded (163577856)
+1023.421 (1) Googledrive chunked upload: 43.7 % uploaded (164626432)
+1023.843 (1) Googledrive chunked upload: 43.9 % uploaded (165675008)
+1024.346 (1) Googledrive chunked upload: 44.2 % uploaded (166723584)
+1024.710 (1) Googledrive chunked upload: 44.5 % uploaded (167772160)
+1025.137 (1) Googledrive chunked upload: 44.8 % uploaded (168820736)
+1025.510 (1) Googledrive chunked upload: 45.1 % uploaded (169869312)
+1025.875 (1) Googledrive chunked upload: 45.3 % uploaded (170917888)
+1026.295 (1) Googledrive chunked upload: 45.6 % uploaded (171966464)
+1026.658 (1) Googledrive chunked upload: 45.9 % uploaded (173015040)
+1027.050 (1) Googledrive chunked upload: 46.2 % uploaded (174063616)
+1027.401 (1) Googledrive chunked upload: 46.4 % uploaded (175112192)
+1027.784 (1) Googledrive chunked upload: 46.7 % uploaded (176160768)
+1028.166 (1) Googledrive chunked upload: 47 % uploaded (177209344)
+1028.542 (1) Googledrive chunked upload: 47.3 % uploaded (178257920)
+1028.886 (1) Googledrive chunked upload: 47.6 % uploaded (179306496)
+1029.292 (1) Googledrive chunked upload: 47.8 % uploaded (180355072)
+1029.670 (1) Googledrive chunked upload: 48.1 % uploaded (181403648)
+1030.024 (1) Googledrive chunked upload: 48.4 % uploaded (182452224)
+1030.374 (1) Googledrive chunked upload: 48.7 % uploaded (183500800)
+1030.795 (1) Googledrive chunked upload: 48.9 % uploaded (184549376)
+1031.131 (1) Googledrive chunked upload: 49.2 % uploaded (185597952)
+1031.535 (1) Googledrive chunked upload: 49.5 % uploaded (186646528)
+1032.109 (1) Googledrive chunked upload: 49.8 % uploaded (187695104)
+1032.449 (1) Googledrive chunked upload: 50.1 % uploaded (188743680)
+1032.814 (1) Googledrive chunked upload: 50.3 % uploaded (189792256)
+1033.166 (1) Googledrive chunked upload: 50.6 % uploaded (190840832)
+1033.539 (1) Googledrive chunked upload: 50.9 % uploaded (191889408)
+1033.922 (1) Googledrive chunked upload: 51.2 % uploaded (192937984)
+1034.292 (1) Googledrive chunked upload: 51.5 % uploaded (193986560)
+1034.680 (1) Googledrive chunked upload: 51.7 % uploaded (195035136)
+1035.052 (1) Googledrive chunked upload: 52 % uploaded (196083712)
+1035.424 (1) Googledrive chunked upload: 52.3 % uploaded (197132288)
+1035.866 (1) Googledrive chunked upload: 52.6 % uploaded (198180864)
+1036.491 (1) Googledrive chunked upload: 52.8 % uploaded (199229440)
+1036.894 (1) Googledrive chunked upload: 53.1 % uploaded (200278016)
+1037.252 (1) Googledrive chunked upload: 53.4 % uploaded (201326592)
+1037.616 (1) Googledrive chunked upload: 53.7 % uploaded (202375168)
+1037.982 (1) Googledrive chunked upload: 54 % uploaded (203423744)
+1038.328 (1) Googledrive chunked upload: 54.2 % uploaded (204472320)
+1038.661 (1) Googledrive chunked upload: 54.5 % uploaded (205520896)
+1039.044 (1) Googledrive chunked upload: 54.8 % uploaded (206569472)
+1039.406 (1) Googledrive chunked upload: 55.1 % uploaded (207618048)
+1039.828 (1) Googledrive chunked upload: 55.3 % uploaded (208666624)
+1040.177 (1) Googledrive chunked upload: 55.6 % uploaded (209715200)
+1040.507 (1) Googledrive chunked upload: 55.9 % uploaded (210763776)
+1040.870 (1) Googledrive chunked upload: 56.2 % uploaded (211812352)
+1041.319 (1) Googledrive chunked upload: 56.5 % uploaded (212860928)
+1041.701 (1) Googledrive chunked upload: 56.7 % uploaded (213909504)
+1042.061 (1) Googledrive chunked upload: 57 % uploaded (214958080)
+1042.407 (1) Googledrive chunked upload: 57.3 % uploaded (216006656)
+1042.763 (1) Googledrive chunked upload: 57.6 % uploaded (217055232)
+1043.126 (1) Googledrive chunked upload: 57.8 % uploaded (218103808)
+1043.493 (1) Googledrive chunked upload: 58.1 % uploaded (219152384)
+1043.851 (1) Googledrive chunked upload: 58.4 % uploaded (220200960)
+1044.230 (1) Googledrive chunked upload: 58.7 % uploaded (221249536)
+1044.578 (1) Googledrive chunked upload: 59 % uploaded (222298112)
+1044.940 (1) Googledrive chunked upload: 59.2 % uploaded (223346688)
+1045.310 (1) Googledrive chunked upload: 59.5 % uploaded (224395264)
+1045.674 (1) Googledrive chunked upload: 59.8 % uploaded (225443840)
+1046.013 (1) Googledrive chunked upload: 60.1 % uploaded (226492416)
+1046.386 (1) Googledrive chunked upload: 60.4 % uploaded (227540992)
+1046.746 (1) Googledrive chunked upload: 60.6 % uploaded (228589568)
+1047.098 (1) Googledrive chunked upload: 60.9 % uploaded (229638144)
+1047.457 (1) Googledrive chunked upload: 61.2 % uploaded (230686720)
+1047.885 (1) Googledrive chunked upload: 61.5 % uploaded (231735296)
+1048.289 (1) Googledrive chunked upload: 61.7 % uploaded (232783872)
+1048.699 (1) Googledrive chunked upload: 62 % uploaded (233832448)
+1049.047 (1) Googledrive chunked upload: 62.3 % uploaded (234881024)
+1049.395 (1) Googledrive chunked upload: 62.6 % uploaded (235929600)
+1049.763 (1) Googledrive chunked upload: 62.9 % uploaded (236978176)
+1050.179 (1) Googledrive chunked upload: 63.1 % uploaded (238026752)
+1050.554 (1) Googledrive chunked upload: 63.4 % uploaded (239075328)
+1050.922 (1) Googledrive chunked upload: 63.7 % uploaded (240123904)
+1051.344 (1) Googledrive chunked upload: 64 % uploaded (241172480)
+1051.711 (1) Googledrive chunked upload: 64.2 % uploaded (242221056)
+1052.225 (1) Googledrive chunked upload: 64.5 % uploaded (243269632)
+1052.588 (1) Googledrive chunked upload: 64.8 % uploaded (244318208)
+1052.959 (1) Googledrive chunked upload: 65.1 % uploaded (245366784)
+1053.357 (1) Googledrive chunked upload: 65.4 % uploaded (246415360)
+1053.703 (1) Googledrive chunked upload: 65.6 % uploaded (247463936)
+1054.068 (1) Googledrive chunked upload: 65.9 % uploaded (248512512)
+1054.431 (1) Googledrive chunked upload: 66.2 % uploaded (249561088)
+1054.793 (1) Googledrive chunked upload: 66.5 % uploaded (250609664)
+1055.178 (1) Googledrive chunked upload: 66.7 % uploaded (251658240)
+1055.569 (1) Googledrive chunked upload: 67 % uploaded (252706816)
+1055.943 (1) Googledrive chunked upload: 67.3 % uploaded (253755392)
+1056.316 (1) Googledrive chunked upload: 67.6 % uploaded (254803968)
+1056.668 (1) Googledrive chunked upload: 67.9 % uploaded (255852544)
+1057.000 (1) Googledrive chunked upload: 68.1 % uploaded (256901120)
+1057.365 (1) Googledrive chunked upload: 68.4 % uploaded (257949696)
+1057.832 (1) Googledrive chunked upload: 68.7 % uploaded (258998272)
+1058.171 (1) Googledrive chunked upload: 69 % uploaded (260046848)
+1058.548 (1) Googledrive chunked upload: 69.3 % uploaded (261095424)
+1058.901 (1) Googledrive chunked upload: 69.5 % uploaded (262144000)
+1059.272 (1) Googledrive chunked upload: 69.8 % uploaded (263192576)
+1059.707 (1) Googledrive chunked upload: 70.1 % uploaded (264241152)
+1060.053 (1) Googledrive chunked upload: 70.4 % uploaded (265289728)
+1060.416 (1) Googledrive chunked upload: 70.6 % uploaded (266338304)
+1060.776 (1) Googledrive chunked upload: 70.9 % uploaded (267386880)
+1061.144 (1) Googledrive chunked upload: 71.2 % uploaded (268435456)
+1061.497 (1) Googledrive chunked upload: 71.5 % uploaded (269484032)
+1061.846 (1) Googledrive chunked upload: 71.8 % uploaded (270532608)
+1062.217 (1) Googledrive chunked upload: 72 % uploaded (271581184)
+1062.661 (1) Googledrive chunked upload: 72.3 % uploaded (272629760)
+1063.388 (1) Googledrive chunked upload: 72.6 % uploaded (273678336)
+1064.104 (1) Googledrive chunked upload: 72.9 % uploaded (274726912)
+1064.457 (1) Googledrive chunked upload: 73.1 % uploaded (275775488)
+1064.833 (1) Googledrive chunked upload: 73.4 % uploaded (276824064)
+1065.182 (1) Googledrive chunked upload: 73.7 % uploaded (277872640)
+1065.777 (1) Googledrive chunked upload: 74 % uploaded (278921216)
+1066.169 (1) Googledrive chunked upload: 74.3 % uploaded (279969792)
+1066.568 (1) Googledrive chunked upload: 74.5 % uploaded (281018368)
+1066.957 (1) Googledrive chunked upload: 74.8 % uploaded (282066944)
+1067.345 (1) Googledrive chunked upload: 75.1 % uploaded (283115520)
+1067.710 (1) Googledrive chunked upload: 75.4 % uploaded (284164096)
+1068.097 (1) Googledrive chunked upload: 75.6 % uploaded (285212672)
+1068.706 (1) Googledrive chunked upload: 75.9 % uploaded (286261248)
+1069.087 (1) Googledrive chunked upload: 76.2 % uploaded (287309824)
+1069.458 (1) Googledrive chunked upload: 76.5 % uploaded (288358400)
+1069.858 (1) Googledrive chunked upload: 76.8 % uploaded (289406976)
+1070.277 (1) Googledrive chunked upload: 77 % uploaded (290455552)
+1070.632 (1) Googledrive chunked upload: 77.3 % uploaded (291504128)
+1070.987 (1) Googledrive chunked upload: 77.6 % uploaded (292552704)
+1071.406 (1) Googledrive chunked upload: 77.9 % uploaded (293601280)
+1071.767 (1) Googledrive chunked upload: 78.1 % uploaded (294649856)
+1072.110 (1) Googledrive chunked upload: 78.4 % uploaded (295698432)
+1072.539 (1) Googledrive chunked upload: 78.7 % uploaded (296747008)
+1072.884 (1) Googledrive chunked upload: 79 % uploaded (297795584)
+1073.234 (1) Googledrive chunked upload: 79.3 % uploaded (298844160)
+1073.609 (1) Googledrive chunked upload: 79.5 % uploaded (299892736)
+1073.963 (1) Googledrive chunked upload: 79.8 % uploaded (300941312)
+1074.324 (1) Googledrive chunked upload: 80.1 % uploaded (301989888)
+1074.699 (1) Googledrive chunked upload: 80.4 % uploaded (303038464)
+1075.049 (1) Googledrive chunked upload: 80.7 % uploaded (304087040)
+1075.416 (1) Googledrive chunked upload: 80.9 % uploaded (305135616)
+1075.782 (1) Googledrive chunked upload: 81.2 % uploaded (306184192)
+1076.138 (1) Googledrive chunked upload: 81.5 % uploaded (307232768)
+1076.516 (1) Googledrive chunked upload: 81.8 % uploaded (308281344)
+1076.851 (1) Googledrive chunked upload: 82 % uploaded (309329920)
+1077.198 (1) Googledrive chunked upload: 82.3 % uploaded (310378496)
+1077.562 (1) Googledrive chunked upload: 82.6 % uploaded (311427072)
+1077.929 (1) Googledrive chunked upload: 82.9 % uploaded (312475648)
+1078.303 (1) Googledrive chunked upload: 83.2 % uploaded (313524224)
+1078.751 (1) Googledrive chunked upload: 83.4 % uploaded (314572800)
+1079.104 (1) Googledrive chunked upload: 83.7 % uploaded (315621376)
+1079.530 (1) Googledrive chunked upload: 84 % uploaded (316669952)
+1079.883 (1) Googledrive chunked upload: 84.3 % uploaded (317718528)
+1080.254 (1) Googledrive chunked upload: 84.5 % uploaded (318767104)
+1080.601 (1) Googledrive chunked upload: 84.8 % uploaded (319815680)
+1081.012 (1) Googledrive chunked upload: 85.1 % uploaded (320864256)
+1081.438 (1) Googledrive chunked upload: 85.4 % uploaded (321912832)
+1081.790 (1) Googledrive chunked upload: 85.7 % uploaded (322961408)
+1082.172 (1) Googledrive chunked upload: 85.9 % uploaded (324009984)
+1082.530 (1) Googledrive chunked upload: 86.2 % uploaded (325058560)
+1082.882 (1) Googledrive chunked upload: 86.5 % uploaded (326107136)
+1083.214 (1) Googledrive chunked upload: 86.8 % uploaded (327155712)
+1083.580 (1) Googledrive chunked upload: 87 % uploaded (328204288)
+1083.915 (1) Googledrive chunked upload: 87.3 % uploaded (329252864)
+1084.297 (1) Googledrive chunked upload: 87.6 % uploaded (330301440)
+1084.663 (1) Googledrive chunked upload: 87.9 % uploaded (331350016)
+1085.017 (1) Googledrive chunked upload: 88.2 % uploaded (332398592)
+1085.402 (1) Googledrive chunked upload: 88.4 % uploaded (333447168)
+1085.747 (1) Googledrive chunked upload: 88.7 % uploaded (334495744)
+1086.103 (1) Googledrive chunked upload: 89 % uploaded (335544320)
+1086.448 (1) Googledrive chunked upload: 89.3 % uploaded (336592896)
+1086.822 (1) Googledrive chunked upload: 89.6 % uploaded (337641472)
+1087.180 (1) Googledrive chunked upload: 89.8 % uploaded (338690048)
+1087.548 (1) Googledrive chunked upload: 90.1 % uploaded (339738624)
+1087.903 (1) Googledrive chunked upload: 90.4 % uploaded (340787200)
+1088.278 (1) Googledrive chunked upload: 90.7 % uploaded (341835776)
+1088.627 (1) Googledrive chunked upload: 90.9 % uploaded (342884352)
+1089.014 (1) Googledrive chunked upload: 91.2 % uploaded (343932928)
+1089.798 (1) Googledrive chunked upload: 91.5 % uploaded (344981504)
+1090.152 (1) Googledrive chunked upload: 91.8 % uploaded (346030080)
+1090.572 (1) Googledrive chunked upload: 92.1 % uploaded (347078656)
+1090.909 (1) Googledrive chunked upload: 92.3 % uploaded (348127232)
+1091.292 (1) Googledrive chunked upload: 92.6 % uploaded (349175808)
+1091.655 (1) Googledrive chunked upload: 92.9 % uploaded (350224384)
+1092.022 (1) Googledrive chunked upload: 93.2 % uploaded (351272960)
+1092.381 (1) Googledrive chunked upload: 93.4 % uploaded (352321536)
+1092.744 (1) Googledrive chunked upload: 93.7 % uploaded (353370112)
+1093.157 (1) Googledrive chunked upload: 94 % uploaded (354418688)
+1093.512 (1) Googledrive chunked upload: 94.3 % uploaded (355467264)
+1093.870 (1) Googledrive chunked upload: 94.6 % uploaded (356515840)
+1094.238 (1) Googledrive chunked upload: 94.8 % uploaded (357564416)
+1094.587 (1) Googledrive chunked upload: 95.1 % uploaded (358612992)
+1094.965 (1) Googledrive chunked upload: 95.4 % uploaded (359661568)
+1095.340 (1) Googledrive chunked upload: 95.7 % uploaded (360710144)
+1095.711 (1) Googledrive chunked upload: 95.9 % uploaded (361758720)
+1096.105 (1) Googledrive chunked upload: 96.2 % uploaded (362807296)
+1096.534 (1) Googledrive chunked upload: 96.5 % uploaded (363855872)
+1096.949 (1) Googledrive chunked upload: 96.8 % uploaded (364904448)
+1097.306 (1) Googledrive chunked upload: 97.1 % uploaded (365953024)
+1097.663 (1) Googledrive chunked upload: 97.3 % uploaded (367001600)
+1098.019 (1) Googledrive chunked upload: 97.6 % uploaded (368050176)
+1098.365 (1) Googledrive chunked upload: 97.9 % uploaded (369098752)
+1098.764 (1) Googledrive chunked upload: 98.2 % uploaded (370147328)
+1099.136 (1) Googledrive chunked upload: 98.5 % uploaded (371195904)
+1099.489 (1) Googledrive chunked upload: 98.7 % uploaded (372244480)
+1099.857 (1) Googledrive chunked upload: 99 % uploaded (373293056)
+1100.256 (1) Googledrive chunked upload: 99.3 % uploaded (374341632)
+1100.602 (1) Googledrive chunked upload: 99.6 % uploaded (375390208)
+1100.947 (1) Googledrive chunked upload: 99.8 % uploaded (376438784)
+1102.114 (1) Googledrive chunked upload: 100 % uploaded (376438784)
+1102.120 (1) OK: Archive backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip uploaded to Google Drive in 140.61 seconds
+1102.125 (1) Recording as successfully uploaded: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip (3b298de6e2a48f88a2e98e4e074f603b)
+1102.195 (1) Deleting local file: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-uploads.zip: OK
+1102.495 (1) Google Drive quota usage: used=5072.8 MB, total=15360 MB, available=10287.2 MB
+1102.497 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip: Attempting to upload to Google Drive (into folder id: 1bJ3uUiY0uRSvxaseqDY2h9n3CtJhFdX6)
+1103.186 (1) Googledrive chunked upload: 2.5 % uploaded (1048576)
+1103.579 (1) Googledrive chunked upload: 4.9 % uploaded (2097152)
+1103.930 (1) Googledrive chunked upload: 7.4 % uploaded (3145728)
+1104.271 (1) Googledrive chunked upload: 9.9 % uploaded (4194304)
+1104.610 (1) Googledrive chunked upload: 12.3 % uploaded (5242880)
+1104.997 (1) Googledrive chunked upload: 14.8 % uploaded (6291456)
+1105.371 (1) Googledrive chunked upload: 17.2 % uploaded (7340032)
+1105.799 (1) Googledrive chunked upload: 19.7 % uploaded (8388608)
+1106.169 (1) Googledrive chunked upload: 22.2 % uploaded (9437184)
+1106.531 (1) Googledrive chunked upload: 24.6 % uploaded (10485760)
+1106.876 (1) Googledrive chunked upload: 27.1 % uploaded (11534336)
+1107.218 (1) Googledrive chunked upload: 29.6 % uploaded (12582912)
+1107.577 (1) Googledrive chunked upload: 32 % uploaded (13631488)
+1107.938 (1) Googledrive chunked upload: 34.5 % uploaded (14680064)
+1108.328 (1) Googledrive chunked upload: 37 % uploaded (15728640)
+1108.933 (1) Googledrive chunked upload: 39.4 % uploaded (16777216)
+1109.340 (1) Googledrive chunked upload: 41.9 % uploaded (17825792)
+1109.776 (1) Googledrive chunked upload: 44.3 % uploaded (18874368)
+1110.120 (1) Googledrive chunked upload: 46.8 % uploaded (19922944)
+1110.512 (1) Googledrive chunked upload: 49.3 % uploaded (20971520)
+1110.921 (1) Googledrive chunked upload: 51.7 % uploaded (22020096)
+1111.272 (1) Googledrive chunked upload: 54.2 % uploaded (23068672)
+1111.669 (1) Googledrive chunked upload: 56.7 % uploaded (24117248)
+1112.058 (1) Googledrive chunked upload: 59.1 % uploaded (25165824)
+1112.474 (1) Googledrive chunked upload: 61.6 % uploaded (26214400)
+1112.807 (1) Googledrive chunked upload: 64.1 % uploaded (27262976)
+1113.156 (1) Googledrive chunked upload: 66.5 % uploaded (28311552)
+1113.580 (1) Googledrive chunked upload: 69 % uploaded (29360128)
+1114.014 (1) Googledrive chunked upload: 71.4 % uploaded (30408704)
+1114.372 (1) Googledrive chunked upload: 73.9 % uploaded (31457280)
+1114.751 (1) Googledrive chunked upload: 76.4 % uploaded (32505856)
+1115.079 (1) Googledrive chunked upload: 78.8 % uploaded (33554432)
+1115.504 (1) Googledrive chunked upload: 81.3 % uploaded (34603008)
+1115.890 (1) Googledrive chunked upload: 83.8 % uploaded (35651584)
+1116.268 (1) Googledrive chunked upload: 86.2 % uploaded (36700160)
+1116.689 (1) Googledrive chunked upload: 88.7 % uploaded (37748736)
+1117.094 (1) Googledrive chunked upload: 91.2 % uploaded (38797312)
+1117.519 (1) Googledrive chunked upload: 93.6 % uploaded (39845888)
+1117.880 (1) Googledrive chunked upload: 96.1 % uploaded (40894464)
+1118.308 (1) Googledrive chunked upload: 98.5 % uploaded (41943040)
+1119.534 (1) Googledrive chunked upload: 100 % uploaded (41943040)
+1119.540 (1) OK: Archive backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip uploaded to Google Drive in 17.04 seconds
+1119.545 (1) Recording as successfully uploaded: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip (36f1d31578ac565591a7ca6a6f297fa9)
+1119.565 (1) Deleting local file: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-others.zip: OK
+1119.872 (1) Google Drive quota usage: used=5113.4 MB, total=15360 MB, available=10246.6 MB
+1119.874 (1) backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db.gz: Attempting to upload to Google Drive (into folder id: 1bJ3uUiY0uRSvxaseqDY2h9n3CtJhFdX6)
+1120.548 (1) Googledrive chunked upload: 58.9 % uploaded (1048576)
+1121.749 (1) Googledrive chunked upload: 100 % uploaded (1048576)
+1121.755 (1) OK: Archive backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db.gz uploaded to Google Drive in 1.88 seconds
+1121.759 (1) Recording as successfully uploaded: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db.gz (c22899c980a6d0727361f0ade75d10e2)
+1121.766 (1) Deleting local file: backup_2018-07-05-1259_Cng_on_Cng_Gio_HoanT_5780928b2c41-db.gz: OK
+1121.771 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1121.774 (1) Number of backup sets in history: 3; groups (db): 1
+1121.776 (1) Examining (for databases) backup set with group_id=0, nonce=5780928b2c41, datestamp=1530759555 (Jul 05 2018 02:59:15)
+1121.778 (1) This backup set is the backup set just made, so will not be deleted.
+1121.778 (1) Examining (for databases) backup set with group_id=0, nonce=515fa2f09c55, datestamp=1530673364 (Jul 04 2018 03:02:44)
+1121.778 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1121.779 (1) Examining (for databases) backup set with group_id=0, nonce=e04e17d020b6, datestamp=1530586642 (Jul 03 2018 02:57:22)
+1121.779 (1) 1530586642: db: this set includes a database (backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-db.gz); db count is now 2
+1121.779 (1) 1530586642: db: over retain limit (2); will delete this database
+1121.780 (1) Delete file: backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-db.gz, service=googledrive
+1122.716 (1) backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-db.gz: Deletion successful
+1122.720 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+1122.721 (1) Number of backup sets in history: 3; groups (files): 1
+1122.722 (1) Examining (for files) backup set with nonce=5780928b2c41, datestamp=1530759555 (Jul 05 2018 02:59:15)
+1122.722 (1) This backup set is the backup set just made, so will not be deleted.
+1122.723 (1) This backup set is the backup set just made, so will not be deleted.
+1122.724 (1) This backup set is the backup set just made, so will not be deleted.
+1122.724 (1) This backup set is the backup set just made, so will not be deleted.
+1122.724 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1122.725 (1) Examining (for files) backup set with nonce=515fa2f09c55, datestamp=1530673364 (Jul 04 2018 03:02:44)
+1122.725 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1122.726 (1) Examining (for files) backup set with nonce=e04e17d020b6, datestamp=1530586642 (Jul 03 2018 02:57:22)
+1122.726 (1) plugins: over retain limit (2); will delete this file entity
+1122.726 (1) themes: over retain limit (2); will delete this file entity
+1122.726 (1) uploads: over retain limit (2); will delete this file entity
+1122.726 (1) others: over retain limit (2); will delete this file entity
+1122.726 (1) Delete file: backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-plugins.zip, service=googledrive
+1122.727 (1) Delete file: backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-themes.zip, service=googledrive
+1122.728 (1) Delete file: backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-uploads.zip, service=googledrive
+1122.730 (1) Delete file: backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-others.zip, service=googledrive
+1123.796 (1) backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-others.zip: Deletion successful
+1124.306 (1) backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-uploads.zip: Deletion successful
+1124.799 (1) backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-themes.zip: Deletion successful
+1125.282 (1) backup_2018-07-03-1257_Cng_on_Cng_Gio_HoanT_e04e17d020b6-plugins.zip: Deletion successful
+1125.287 (1) This backup set is now empty; will remove from history
+1125.288 (1) Deleting log file (log.e04e17d020b6.txt)
+1125.301 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1125.313 (1) Resume backup (5780928b2c41, 1): finish run
+1125.316 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+1125.322 (1) No email will/can be sent - the user has not configured an email address.
+1125.323 (1) The backup apparently succeeded and is now complete

@@ -1,0 +1,6 @@
+[12-Mar-2017 04:36:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readiposadmin/public_html/hoanthien/wp-content/themes/fortuna/index.php on line 9
+[12-Mar-2017 16:46:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readiposadmin/public_html/hoanthien/wp-content/themes/fortuna/index.php on line 9
+[07-Apr-2017 20:12:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readiposadmin/public_html/hoanthien/wp-content/themes/fortuna/404.php on line 1
+[11-Apr-2017 11:19:27 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readiposadmin/public_html/hoanthien/wp-content/themes/fortuna/index.php on line 9
+[13-Apr-2017 15:09:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readiposadmin/public_html/hoanthien/wp-content/themes/fortuna/404.php on line 1
+[18-May-2017 09:46:52 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/readiposadmin/public_html/hoanthien/wp-content/themes/fortuna/index.php on line 9
