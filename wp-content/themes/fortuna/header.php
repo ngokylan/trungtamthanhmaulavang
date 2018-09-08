@@ -28,7 +28,7 @@
 
 	
 	
-	
+
 	<?php
 	// If WP4.3+ and no site_icon is set - show custom
 	if ( ( function_exists( 'has_site_icon' ) && !has_site_icon() ) ) { ?>
@@ -43,6 +43,30 @@
 	<?php wp_head(); ?>	
 
 	<style type="text/css" media="screen">
+        .button, a.button, button, input[type='submit'], input[type='reset'], input[type='button'] {
+            text-transform: uppercase;
+        }
+
+        @media only screen and (min-width: 1018px){
+            #header.scrolled #menu > ul > li > a, #header.scrolled .header_cart .icon { line-height: 36px; }
+            #header.scrolled .header_cart .widget_shopping_cart { top: 36px; }
+            #header.scrolled #menu > ul > li.boc_nav_button { height: 36px; }
+            #header.scrolled #logo .logo_img { height: 40px;}
+            #header.scrolled #boc_searchform_close { top:9px; }
+        }
+
+        #menu > ul > li > a, #header .header_cart a.icon { color: #ffffff; }
+        #menu > ul > li.boc_nav_button a{ color: #ffffff; border: 2px solid #ffffff; }
+
+        #menu > ul > li:not(.boc_nav_button):hover > a, #header .header_cart li a.icon:hover { color: #eeee22; }
+        #menu > ul > li.boc_nav_button a:hover{ background: #eeee22; border: 2px solid #eeee22; }
+
+        .main_menu_underline_effect #menu > ul > li > a:after{ background-color: #08ada7; }
+
+        #footer {
+            position: relative;
+        }
+
     #logo-slider-wraper {
             position:relative;	
 	}
@@ -73,12 +97,12 @@
             text-indent:-9000px;
 	}
 	#prev{
-            background:url(http://congdoanhoanthien.org.au/wp-content/plugins/logo-slider/arrows/arrow1.png) no-repeat center;
+            background:url(http://trungtamthanhmaulavang.org.au/wp-content/plugins/logo-slider/arrows/arrow1.png) no-repeat center;
             float:right;
             margin-right:-50px;
 	}	
 	#next{
-            background:url(http://congdoanhoanthien.org.au/wp-content/plugins/logo-slider/arrows/arrow1-prev.png) no-repeat center;
+            background:url(http://trungtamthanhmaulavang.org.au/wp-content/plugins/logo-slider/arrows/arrow1-prev.png) no-repeat center;
             float:left;
             margin-left:-50px
 	}	
@@ -91,6 +115,22 @@
         background-size:cover;
         background-repeat:no-repeat;
     }
+
+    /*
+        For anh Lap
+        CSS chinh color theo mua
+    */
+    .full_header {
+        background-color: #05b13a;
+        color: white;
+    }
+    .full_header #subheader {
+        color: white
+    }
+    .full_header #subheader .section a {
+        color: white !important;
+    }
+
     /*
     ===============================================================
         --------------------_ Responsive _--------------------
@@ -124,7 +164,7 @@
                 width: 100% !important;
             }
             #next{
-                background:url(http://congdoanhoanthien.org.au/wp-content/plugins/logo-slider/arrows/arrow1-prev.png) no-repeat center;
+                background:url(http://trungtamthanhmaulavang.org.au/wp-content/plugins/logo-slider/arrows/arrow1-prev.png) no-repeat center;
                 float:left;
                 margin-left:-66px !important;
             }
@@ -279,6 +319,40 @@
 	    box-sizing: border-box;
 	}
 
+        /*CSS MODIFICATION BY KHANH PHAN*/
+        .blue-text {color:#1e2c5e;}
+        .red-text { color:#8a1b23;}
+        .yellow-text { color:#bb891e; }
+        /*.rel_pos { background:url("images/bgd-texture.gif");}*/
+        .menu-default-menu-bar-minh-container { background:#1e2c5e !important;}
+        #header.scrolled .rel_pos { background:#1e2c5e !important;}
+        #menu > ul > li:not(.boc_nav_button):hover > a, #header .header_cart li a.icon:hover { color:#FFFFFF !important; }
+        .heading-logo {display: table-cell; vertical-align: middle; text-align: left; box-sizing:border-box; padding-left: 30px; }
+        .heading-logo span { display: block; font-weight: 600; }
+        .heading-logo span.red-text { font-size: 28px; line-height: 50px; }
+        .heading-logo span.blue-text { font-size: 37px; line-height: 40px; }
+        .heading-logo span.yellow-text { font-size: 17px; margin-top: 20px; line-height: 20px; }
+        #header.scrolled #logo { padding:10px 0; display: none;}
+        #header.scrolled #logo .logo_img { padding:10px 0; display: none;  width: auto !important;}
+        /*#header .scrolled .block_header  #logo .heading-logo { display: none; }*/
+        .post_item_block.boxed { background:#f9f9f9; border-radius:0; }
+        @media only screen and (max-width: 1017px) {
+            #logo { float: left; }
+            .heading-logo { display: none; }
+            #logo .logo_img { width: auto !important; }
+        }
+        @media only screen and (max-width: 768px) {
+            #logo { padding-bottom: 0; }
+            #logo .logo_img { margin: 10px 0;}
+            #logo .logo_img { height: 82px; }
+        }
+
+        @media only screen and (max-width: 1280px) and (min-width: 1018px){
+            #menu > ul > li > a { font-size: 16px; }
+            #logo .logo_img { width: auto !important; }
+        }
+
+        /*CSS MODIFICATION BY KHANH PHAN*/
     </style>
 	
 </head>
@@ -396,30 +470,35 @@
 					?>
 						
 					<div id="logo">
-<!--				--><?php	//if($logo) { ?>
-<!--							<div class='logo_img --><?php //echo $logo_transparent ? "transparent_logo_".esc_attr($transparent_logo_effect) : "";?><!--'>-->
-<!--								<a href="--><?php //echo esc_url(home_url('/')); ?><!--" title="--><?php //echo esc_attr(get_bloginfo('name', 'display')); ?><!--" rel="home">-->
-<!--									<img src="--><?php //echo esc_url($logo); ?><!--" alt="--><?php //bloginfo('name'); ?><!--"/>-->
-<!--									--><?php //if($logo_transparent) { ?>
-<!--										<span id="transparent_logo"><img src="--><?php //echo esc_url($logo_transparent); ?><!--" alt="--><?php //bloginfo('name'); ?><!--"/></span>-->
-<!--									--><?php //} ?>
-<!--								</a>-->
-<!--							</div>-->
-<!--				--><?php	//} else { ?>
-<!--							<div class='logo_img --><?php //echo $logo_transparent ? "transparent_logo_".esc_attr($transparent_logo_effect) : "";?><!--'>-->
-<!--								<a href="--><?php //echo esc_url(home_url('/')); ?><!--" title="--><?php //echo esc_attr(get_bloginfo('name', 'display')); ?><!--" rel="home">-->
-<!--									<img src="--><?php //echo esc_url(get_template_directory_uri().'/images/logo.png'); ?><!--" alt="--><?php //bloginfo('name'); ?><!--"/>-->
-<!--									--><?php //if($logo_transparent) { ?>
-<!--										<span id="transparent_logo"><img src="--><?php //echo esc_url(get_template_directory_uri().'/img/logo.png'); ?><!--" alt="--><?php //bloginfo('name'); ?><!--"/></span>-->
-<!--									--><?php //} ?>
-<!--								</a>-->
-<!--							</div>-->
-<!--				--><?php	//} ?>
-						<div class="heading-logo" style="height: 190px">
-                            <span class="blue-text">TRUNG TÂM THÁNH MẪU LA VANG</span>
-                            <span class="red-text">CỘNG ĐOÀN TÔMA THIỆN</span>
-                            <span class="yellow-text">SAINT THOMAS CATHOLIC COMMUNITY</span>
+				<?php	if($logo) { ?>
+							<div class='logo_img <?php echo $logo_transparent ? "transparent_logo_".esc_attr($transparent_logo_effect) : "";?>'>
+								<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+									<img src="<?php echo esc_url($logo); ?>" alt="<?php bloginfo('name'); ?>"/>
+									<?php if($logo_transparent) { ?>
+										<span id="transparent_logo"><img src="<?php echo esc_url($logo_transparent); ?>" alt="<?php bloginfo('name'); ?>"/></span>
+									<?php } ?>
+								</a>
+							</div>
+                            <div class="heading-logo" style="height: 190px">
+                                <span class="blue-text">TRUNG TÂM THÁNH MẪU LA VANG</span>
+                                <span class="red-text">CỘNG ĐOÀN THÁNH TÔMA THIỆN</span>
+                                <span class="yellow-text">SAINT THOMAS THIEN CATHOLIC COMMUNITY</span>
                             </div>
+				<?php	} else { ?>
+							<div class='logo_img <?php echo $logo_transparent ? "transparent_logo_".esc_attr($transparent_logo_effect) : "";?>'>
+								<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+									<img src="<?php echo esc_url(get_template_directory_uri().'/images/logo.png'); ?>" alt="<?php bloginfo('name'); ?>"/>
+									<?php if($logo_transparent) { ?>
+										<span id="transparent_logo"><img src="<?php echo esc_url(get_template_directory_uri().'/img/logo.png'); ?>" alt="<?php bloginfo('name'); ?>"/></span>
+									<?php } ?>
+								</a>
+							</div>
+                            <div class="heading-logo" style="height: 190px">
+                                <span class="blue-text">TRUNG TÂM THÁNH MẪU LA VANG</span>
+                                <span class="red-text">CỘNG ĐOÀN THÁNH TÔMA THIỆN</span>
+                                <span class="yellow-text">SAINT THOMAS THIEN CATHOLIC COMMUNITY</span>
+                            </div>
+				<?php	} ?>
 					</div>
 
 					<div id="mobile_menu_toggler">
@@ -429,7 +508,7 @@
 						<div class="m_nav_ham button_closed" id="m_ham_3"></div>
 					  </div>
 					</div>
-
+ 
 				<?php 
 					// Cart in Header
 					if(boc_cart_in_header()) {
@@ -454,10 +533,10 @@
 //					}
 //					?>
 <!--					</div>-->
-					
-					
 
-		
+
+
+
 				</div>
 				
 				<?php 

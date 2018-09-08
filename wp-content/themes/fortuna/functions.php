@@ -419,7 +419,7 @@ if(function_exists('vc_set_as_theme')){
 	
 	// Set custom VC templates DIR
 	$vc_res_dir = get_template_directory().'/vc/vc_templates/';
-	vc_set_template_dir($vc_res_dir);
+    vc_set_shortcodes_templates_dir($vc_res_dir);
 
 	// Call custom Fortuna method that extends VC shortcodes
 	load_template( trailingslashit( get_template_directory() ) . 'includes/shortcodes/vc_shortcodes.php' );
