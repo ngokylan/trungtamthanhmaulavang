@@ -677,7 +677,10 @@ jQuery(document).ready(function($){
 				$('#header').addClass('scrolled');
 			}else {	
 				$('#header').removeClass('scrolled');
-				$( ".logo_img" ).width($('.logo_img').attr('initital_width'));
+				if($('.logo_img').attr('initital_width') != 0)
+				{
+                    $( ".logo_img" ).width($('.logo_img').attr('initital_width'));
+				}
 			}
 		}
 	}
